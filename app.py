@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import random
+import sqlite3
 
 # ── Page config ────────────────────────────────────────────────────────────────
 st.set_page_config(
@@ -115,11 +116,19 @@ div[data-testid="stButton"] button:hover {
 # ── Load data ──────────────────────────────────────────────────────────────────
 @st.cache_data
 def load_data():
-    df = pd.read_csv("nike_liga_data.csv")
+    #df = pd.read_csv("nike_liga_data.csv")
     # Support both column naming conventions
-    df.columns = [c.strip() for c in df.columns]
-    if "Players" in df.columns:
-        df = df.rename(columns={"Players": "Player", "Values": "Value"})
+    #df.columns = [c.strip() for c in df.columns]
+    #if "Players" in df.columns:
+    #    df = df.rename(columns={"Players": "Player", "Values": "Value"})
+    #df["Value"] = pd.to_numeric(df["Value"], errors="coerce")
+    #df = df.dropna(subset=["Value"])
+    #df["Value"] = df["Value"].astype(int)
+    #return df.reset_index(drop=True)
+
+    conn = sqlite3.connect("nike_liga.db")
+    df = pd.read_sql("SELECT name AS Player, value AS Value FROM players", conn)
+    conn.close()
     df["Value"] = pd.to_numeric(df["Value"], errors="coerce")
     df = df.dropna(subset=["Value"])
     df["Value"] = df["Value"].astype(int)
