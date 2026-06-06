@@ -136,7 +136,11 @@ def init_state():
     st.session_state.answered = False
     st.session_state.last_correct = None
     st.session_state.game_over = False
-    st.session_state.indices = random.sample(range(len(df)), 2)
+    for _ in range(100):
+        i0, i1 = random.sample(range(len(df)), 2)
+        if df.loc[i0, "Value"] != df.loc[i1, "Value"]:
+            st.session_state.indices = [i0, i1]
+            break
 
 if "round" not in st.session_state:
     init_state()
@@ -148,7 +152,11 @@ def fmt_value(v: int) -> str:
     return f"€{v//1_000}k"
 
 def pick_new_pair():
-    st.session_state.indices = random.sample(range(len(df)), 2)
+    for _ in range(100):  # safety limit
+        i0, i1 = random.sample(range(len(df)), 2)
+        if df.loc[i0, "Value"] != df.loc[i1, "Value"]:
+            st.session_state.indices = [i0, i1]
+            break
     st.session_state.answered = False
     st.session_state.last_correct = None
 
@@ -159,11 +167,6 @@ def handle_guess(guess: str):
     i0, i1 = st.session_state.indices
     v0 = df.loc[i0, "Value"]
     v1 = df.loc[i1, "Value"]
-
-    if v0 == v1:
-        # equal values → skip, no penalty
-        pick_new_pair()
-        return
 
     correct = (guess == "higher" and v1 > v0) or (guess == "lower" and v1 < v0)
     st.session_state.answered = True
@@ -215,7 +218,7 @@ if st.session_state.game_over:
 
 # ── Header ─────────────────────────────────────────────────────────────────────
 st.markdown("<h1 style='text-align:center;font-size:3rem;margin-bottom:0'>⚽ GUESS MY VALUE</h1>", unsafe_allow_html=True)
-st.markdown("<p style='text-align:center;color:#8b949e;margin-top:0'>Niké Liga · Season 2023/24</p>", unsafe_allow_html=True)
+st.markdown("<p style='text-align:center;color:#8b949e;margin-top:0'>Niké Liga · Season 2025/26</p>", unsafe_allow_html=True)
 
 # Score bar
 i0, i1 = st.session_state.indices
