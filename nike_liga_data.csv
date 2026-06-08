@@ -1,363 +1,335 @@
-,Players,Values
-0,Dominik Takac,2800000
-1,Martin Trnovsky,150000
-2,Matus Macik,125000
-3,Svetozar Markovic,2500000
-4,Kenan Bajric,1500000
-5,Kevin Wimmer,250000
-6,Sidoine Fogning,225000
-7,Guram Kashia,150000
-8,Sandro Cruz,1200000
-9,Sharani Zuberu,150000
-10,César Blackman,2500000
-11,Peter Pokorný,1500000
-12,Rahim Ibrahim,2000000
-13,Daiki Matsuoka,1000000
-14,Danylo Ignatenko,1000000
-15,Maxim Mateas,350000
-16,Niko Jankovic,3500000
-17,Artur Gajdos,1000000
-18,Nino Marcelli,6500000
-19,Alasana Yirajang,1000000
-20,Robert Mak,200000
-21,Vladimir Weiss,150000
-22,Tigran Barseghyan,1000000
-23,Mykola Kukharevych,1500000
-24,Andraz Sporar,1500000
-25,Adam Griger,400000
-26,Jakub Badzgon,300000
-27,Jakub Jokl,100000
-28,Dominik Svacek,75000
-29,Tobias Paliscak,2500000
-30,Aleksandre Narimanidze,1200000
-31,Jan Minarik,300000
-32,Filip Kasa,200000
-33,Michal Svoboda,150000
-34,Marek Okal,500000
-35,Krisztian Bari,500000
-36,Timotej Hranica,500000
-37,Xavier Adang,650000
-38,Andrei Florea,350000
-39,Miroslav Kacer,325000
-40,Fabian Bzdyl,1500000
-41,Michal Fasko,400000
-42,Samuel Datko,400000
-43,Patrik Ilko,300000
-44,Frantisek Kosa,275000
-45,Regő Szánthó,250000
-46,Marko Roginic,350000
-47,Lukas Prokop,250000
-48,Dani Homet,200000
-49,Lukas Julis,175000
-50,Nehuén Mendoza,50000
-51,Ziga Frelih,400000
-52,Martin Vantruba,200000
-53,Patrik Vasil,100000
-54,Patrick Nwadike,400000
-55,Lazar Stojsavljevic,250000
-56,Kristian Kostrna,225000
-57,Patrick Karhan,150000
-58,Filip Twardzik,100000
-59,Roko Jureskin,275000
-60,Martin Mikovic,100000
-61,Libor Holik,350000
-62,Michal Tomic,250000
-63,Roman Prochazka,100000
-64,Giorgi Moistsrapishvili,400000
-65,Milos Kratochvil,350000
-66,Marin Lausic,325000
-67,Erik Sabo,100000
-68,Luka Khorkheli,350000
-69,Timotej Kudlicka,325000
-70,Stefan Skrbo,350000
-71,Philip Azango,300000
-72,Hilary Gong,300000
-73,Abdulrahman Taiwo,400000
-74,Idjessi Metsoko,350000
-75,Jakub Paur,100000
-76,Michal Duris,75000
-77,Mathew Yakubu,150000
-78,Michal Trnovsky,50000
-79,Branko Maruniak,10000
-80,Lukas Hrosso,10000
-81,Branko Pindura,25000
-82,Lubomir Willweber,75000
-83,João Miranda,50000
-84,Lukas Migala,25000
-85,Ogi Jankelic,10000
-86,Kazeem Bolaji,100000
-87,Nicolas Sikula,200000
-88,Taiyo Ushiyama,125000
-89,Adam Balaz,10000
-90,David Richtarech,100000
-91,Adrian Sivicek,75000
-92,Marin Calusic,75000
-93,Jakub Povazanec,50000
-94,Branislav Luptak,25000
-95,Dominik Veselovsky,200000
-96,Tibor Slebodnik,150000
-97,Adam Hanes,150000
-98,Davi Alves,125000
-99,Tomas Kajsin,25000
-100,Enzo Arevalo,125000
-101,Praisegod Okechukwu,100000
-102,Stefan Gerec,50000
-103,Oliver Reiter,50000
-104,Boris Krstic,25000
-105,Aleksandar Popovic,1800000
-106,Filipe,250000
-107,Jan-Christoph Bartels,200000
-108,Aljaz Ivacic,200000
-109,Klemen Nemanic,650000
-110,Taras Kacharaba,600000
-111,Filip Blazek,325000
-112,Rhyan Modesto,325000
-113,Alex Mendez,350000
-114,Rachid Sande Barro,50000
-115,Tsotne Kapanadze,750000
-116,Matus Kmet,700000
-117,Máté Tuboly,1800000
-118,Julien Eymard Bationo,750000
-119,Samsindin Ouro,800000
-120,Christián Herc,450000
-121,Nathan Udvaros,375000
-122,Karol Blasko,350000
-123,Clement Ansah,125000
-124,Fallou Diongue,75000
-125,Martin Jencus,25000
-126,Viktor Djukanovic,2300000
-127,Ammar Ramadan,2300000
-128,Abdoulaye Gueye,400000
-129,Alioune Sylla,350000
-130,Matej Trusa,700000
-131,Andreas Gruber,550000
-132,Giorgi Gagua,400000
-133,Nino Kukovec,325000
-134,Pa Assan Corr,225000
-135,Andrija Katic,550000
-136,Matus Slavicek,200000
-137,Alex Hudok,100000
-138,Luka Damjanovic,100000
-139,Papa Diouf,375000
-140,Loïc Bessilé,300000
-141,Richard Krizan,200000
-142,Viktor Simic,50000
-143,Nikolas Brandis,375000
-144,Lukas Skovajsa,100000
-145,Jakub Holubek,75000
-146,Hugo Pavek,650000
-147,Kristo Hussar,300000
-148,Sean Goss,200000
-149,Antonio Bazdaric,175000
-150,Tadeas Hajovsky,700000
-151,Markus Poom,350000
-152,Fedor Kasana,150000
-153,Gia Nadareishvili,150000
-154,Richie Musaba,300000
-155,Jesse Khan,125000
-156,Marselino Ferdinan,100000
-157,Shakhmurza Adyrbekov,75000
-158,Denis Adamkovic,75000
-159,Eynel Soares,400000
-160,Dimitri Jepihhin,300000
-161,Nentaka Bangs,25000
-162,Roshaun Mathurin,150000
-163,Dylann Kam,150000
-164,Cody David,400000
-165,Lukas Mikulaj,400000
-166,Franko Sabljic,125000
-167,Pepijn Doesburg,125000
-168,Matej Juricka,275000
-169,Lukas Domanisky,100000
-170,Filip Mielke,1000000
-171,Rene Rantusa Lampreht,350000
-172,Jakub Luka,300000
-173,Matej Oravec,125000
-174,Alex Lajciak,75000
-175,Peter Kovacik,450000
-176,Kevor Palumets,450000
-177,Vincent Chyla,400000
-178,Simon Fasko,325000
-179,Rene Paraj,100000
-180,Ondrej Deml,350000
-181,Andriy Gavrylenko,150000
-182,Davit Hakobyan,175000
-183,Samuel Stefanik,100000
-184,Luka Silagadze,325000
-185,Balsa Mrvaljevic,175000
-186,Roland Galcik,450000
-187,Ridwan Sanusi,375000
-188,Radek Siler,850000
-189,Ousman Kujabi,150000
-190,Matus Marcin,125000
-191,Maksym Khyminets,75000
-192,Jakub Rehak,25000
-193,David Huska,175000
-194,Attila Horvath,75000
-195,Branislav Sokol,25000
-196,Tomas Kral,850000
-197,Lukas Endl,325000
-198,Alexander Mojzis,300000
-199,Daniel Köstl,300000
-200,Alexander Selecky,375000
-201,Dominik Masek,175000
-202,Giuliano Antonio Marek,100000
-203,Adrian Slavik,125000
-204,Martin Sulek,125000
-205,Martin Gomola,125000
-206,Jan Murgas,150000
-207,Martin Bacik,350000
-208,Oliver Luteran,325000
-209,Samuel Grygar,325000
-210,Timotej Mudry,200000
-211,Lukas Fila,200000
-212,Vojtech Novak,75000
-213,Tomas Buchvaldek,75000
-214,Adam Tucny,225000
-215,Marian Chobot,150000
-216,Jan Hladik,175000
-217,Martin Chrien,175000
-218,Ondrej Sasinka,125000
-219,Martin Boda,100000
-220,David Jackuliak,75000
-221,Patrik Jevos,75000
-222,Marko Kelemen,75000
-223,Martin Junas,175000
-224,Erik Riska,25000
-225,Marek Ujlaky,275000
-226,Mario Suver,200000
-227,Branislav Ninaj,150000
-228,Oliver Podhorin,100000
-229,Michal Ranko,75000
-230,Maurizio Macorig,50000
-231,Peter Guinari,50000
-232,Adam Gazi,200000
-233,Martin Cernek,100000
-234,Samuel Sula,150000
-235,Lukas Simko,125000
-236,Lukas Fabis,125000
-237,Damian Baris,125000
-238,Adam Ravas,75000
-239,Martin Nagy,50000
-240,Petr Pudhorocky,200000
-241,Martin Masik,150000
-242,Mario Holly,125000
-243,Tomas Smejkal,150000
-244,Lukas Leginus,125000
-245,Abbati Abdullahi,100000
-246,Erik Daniel,100000
-247,Adam Morong,100000
-248,Roman Potocny,75000
-249,Philip Onyedika,25000
-250,Maciej Dabrowski,225000
-251,David Sipos,150000
-252,Matus Kira,100000
-253,Filip Kalanin,100000
-254,Sebastian Kosa,550000
-255,Tomas Durko,275000
-256,Dominik Kruzliak,225000
-257,Jan Krivak,125000
-258,Emilian Metu,125000
-259,Matej Madlenak,250000
-260,Leonardo Lukacevic,225000
-261,Osman Kakay,225000
-262,Daniel Magda,175000
-263,Erlantz Palacín,50000
-264,Milan Dimun,200000
-265,Filip Lichy,250000
-266,David Gallovic,200000
-267,Marek Zsigmund,200000
-268,Matej Jakubek,125000
-269,Juraj Teplan,75000
-270,Mátyás Kovács,500000
-271,Miroslav Sovic,225000
-272,Edin Julardzija,100000
-273,Roman Cerepkai,500000
-274,Vladimir Perisic,450000
-275,Milan Rehus,400000
-276,Karlo Miljanic,225000
-277,Patrik Lukac,125000
-278,Adam Jakubech,125000
-279,Tornike Dzotsenidze,250000
-280,Martin Bednar,250000
-281,Polydefkis Volanakis,225000
-282,Tae-rang Park,150000
-283,Lazar Zaknic,50000
-284,Franck Bahi,150000
-285,Christos Makrygiannis,50000
-286,Matej Curma,150000
-287,Lukas Pauschek,125000
-288,Dimos Papakonstantinou,10000
-289,Ben Cottrell,350000
-290,Nikita Mihhailov,300000
-291,Abdul Zubairu,200000
-292,Matus Begala,125000
-293,Orestis Kalemi,75000
-294,Stanislav Danko,50000
-295,Hugo Ahl,375000
-296,Samuel Ramos,325000
-297,Kai Brosnan,225000
-298,Kido Taylor-Hart,225000
-299,Patrik Danek,225000
-300,Tomasz Walczak,150000
-301,Luka Lemishko,150000
-302,José López,125000
-303,Vasilios Theofanopoulos,25000
-304,Adrian Knurovsky,75000
-305,Pavol Bajza,75000
-306,Maksym Kuchynskyi,25000
-307,Daniels Balodis,225000
-308,Denys Taraduda,175000
-309,Jozef Menich,100000
-310,Taras Bondarenko,100000
-311,Patrik Simko,50000
-312,Michal Siplak,125000
-313,Séverin Tatolna,100000
-314,Moritz Römling,100000
-315,Ioan-Calin Revenco,175000
-316,Jurij Medvedev,175000
-317,Juraj Kotula,100000
-318,Dominique Simon,200000
-319,Hélder Morim,125000
-320,Roman Begala,200000
-321,Filip Soucek,175000
-322,Kyrylo Sigeev,100000
-323,Artur Ukhan,25000
-324,Jan Bernat,200000
-325,Martin Regali,200000
-326,Andy Masaryk,150000
-327,Gabriel Barbosa,350000
-328,Stanislav Olejnik,175000
-329,Lukasz Wolsztynski,125000
-330,Shayon Harrison,125000
-331,Landing Sagna,125000
-332,Peter Juritka,75000
-333,David Griger,10000
-334,Filip Dlubac,125000
-335,Benjamin Szaraz,125000
-336,Sebastian Jung,100000
-337,Erik Gyurákovics,75000
-338,Martin Simko,175000
-339,Dominik Spiriak,175000
-340,Ondrej Rudzan,150000
-341,Robert Pillar,100000
-342,Simon Smehyl,150000
-343,Adam Krcik,125000
-344,Filip Kiss,100000
-345,David Kmeto,25000
-346,Alen Mustafic,225000
-347,Dominik Zak,225000
-348,Dan Ozvolda,125000
-349,Martin Gambos,125000
-350,Jozef Pastorek,75000
-351,Ganbold Ganbayar,175000
-352,Kristof Domonkos,150000
-353,Patrik Szűcs,100000
-354,Christian Bayemi,150000
-355,Boris Druga,150000
-356,Martin Misovic,50000
-357,Jakub Palan,50000
-358,Zyen Jones,175000
-359,Nandor Tamas,150000
-360,Elvis Mashike,150000
-361,Zoran Ivanics,25000
+,Players,Values,Clubs,Logos,PlayerImages
+0,Dominik Takac,2800000,Slovan Bratislava,https://tmssl.akamaized.net//images/wappen/tiny/540.png?lm=1415023119,https://img.a.transfermarkt.technology/portrait/medium/471164-1584957004.png
+1,Martin Trnovsky,150000,Slovan Bratislava,https://tmssl.akamaized.net//images/wappen/tiny/540.png?lm=1415023119,https://img.a.transfermarkt.technology/portrait/medium/434073-1713529257.png
+2,Matus Macik,125000,Slovan Bratislava,https://tmssl.akamaized.net//images/wappen/tiny/540.png?lm=1415023119,https://img.a.transfermarkt.technology/portrait/medium/381477-1701968229.png
+3,Svetozar Markovic,2500000,Slovan Bratislava,https://tmssl.akamaized.net//images/wappen/tiny/540.png?lm=1415023119,https://img.a.transfermarkt.technology/portrait/medium/470790-1523875477.jpg
+4,Kenan Bajric,1500000,Slovan Bratislava,https://tmssl.akamaized.net//images/wappen/tiny/540.png?lm=1415023119,https://img.a.transfermarkt.technology/portrait/medium/226793-1713529061.png
+5,Kevin Wimmer,250000,Slovan Bratislava,https://tmssl.akamaized.net//images/wappen/tiny/540.png?lm=1415023119,https://img.a.transfermarkt.technology/portrait/medium/122675-1713529011.png
+6,Sidoine Fogning,225000,Slovan Bratislava,https://tmssl.akamaized.net//images/wappen/tiny/540.png?lm=1415023119,https://img.a.transfermarkt.technology/portrait/medium/default.jpg
+7,Guram Kashia,150000,Slovan Bratislava,https://tmssl.akamaized.net//images/wappen/tiny/540.png?lm=1415023119,https://img.a.transfermarkt.technology/portrait/medium/55972-1713528952.png
+8,Sandro Cruz,1200000,Slovan Bratislava,https://tmssl.akamaized.net//images/wappen/tiny/540.png?lm=1415023119,https://img.a.transfermarkt.technology/portrait/medium/481627-1762335391.jpg
+9,Sharani Zuberu,150000,Slovan Bratislava,https://tmssl.akamaized.net//images/wappen/tiny/540.png?lm=1415023119,https://img.a.transfermarkt.technology/portrait/medium/579631-1713530234.png
+10,César Blackman,2500000,Slovan Bratislava,https://tmssl.akamaized.net//images/wappen/tiny/540.png?lm=1415023119,https://img.a.transfermarkt.technology/portrait/medium/440383-1713528857.png
+11,Peter Pokorný,1500000,Slovan Bratislava,https://tmssl.akamaized.net//images/wappen/tiny/540.png?lm=1415023119,https://img.a.transfermarkt.technology/portrait/medium/490595-1696620755.png
+12,Rahim Ibrahim,2000000,Slovan Bratislava,https://tmssl.akamaized.net//images/wappen/tiny/540.png?lm=1415023119,https://img.a.transfermarkt.technology/portrait/medium/711597-1713619509.png
+13,Daiki Matsuoka,1000000,Slovan Bratislava,https://tmssl.akamaized.net//images/wappen/tiny/540.png?lm=1415023119,https://img.a.transfermarkt.technology/portrait/medium/576449-1770556898.JPG
+14,Danylo Ignatenko,1000000,Slovan Bratislava,https://tmssl.akamaized.net//images/wappen/tiny/540.png?lm=1415023119,https://img.a.transfermarkt.technology/portrait/medium/376082-1641378972.png
+15,Maxim Mateas,350000,Slovan Bratislava,https://tmssl.akamaized.net//images/wappen/tiny/540.png?lm=1415023119,https://img.a.transfermarkt.technology/portrait/medium/default.jpg
+16,Niko Jankovic,3500000,Slovan Bratislava,https://tmssl.akamaized.net//images/wappen/tiny/540.png?lm=1415023119,https://img.a.transfermarkt.technology/portrait/medium/403760-1647376294.png
+17,Artur Gajdos,1000000,Slovan Bratislava,https://tmssl.akamaized.net//images/wappen/tiny/540.png?lm=1415023119,https://img.a.transfermarkt.technology/portrait/medium/641657-1713619571.png
+18,Nino Marcelli,6500000,Slovan Bratislava,https://tmssl.akamaized.net//images/wappen/tiny/540.png?lm=1415023119,https://img.a.transfermarkt.technology/portrait/medium/726661-1713530168.png
+19,Alasana Yirajang,1000000,Slovan Bratislava,https://tmssl.akamaized.net//images/wappen/tiny/540.png?lm=1415023119,https://img.a.transfermarkt.technology/portrait/medium/1231655-1748035212.jpg
+20,Robert Mak,200000,Slovan Bratislava,https://tmssl.akamaized.net//images/wappen/tiny/540.png?lm=1415023119,https://img.a.transfermarkt.technology/portrait/medium/92180-1572533097.png
+21,Vladimir Weiss,150000,Slovan Bratislava,https://tmssl.akamaized.net//images/wappen/tiny/540.png?lm=1415023119,https://img.a.transfermarkt.technology/portrait/medium/92701-1713529878.png
+22,Tigran Barseghyan,1000000,Slovan Bratislava,https://tmssl.akamaized.net//images/wappen/tiny/540.png?lm=1415023119,https://img.a.transfermarkt.technology/portrait/medium/270605-1713530201.png
+23,Mykola Kukharevych,1500000,Slovan Bratislava,https://tmssl.akamaized.net//images/wappen/tiny/540.png?lm=1415023119,https://img.a.transfermarkt.technology/portrait/medium/730126-1612035668.png
+24,Andraz Sporar,1500000,Slovan Bratislava,https://tmssl.akamaized.net//images/wappen/tiny/540.png?lm=1415023119,https://img.a.transfermarkt.technology/portrait/medium/179860-1719928232.jpg
+25,Adam Griger,400000,Slovan Bratislava,https://tmssl.akamaized.net//images/wappen/tiny/540.png?lm=1415023119,https://img.a.transfermarkt.technology/portrait/medium/641676-1635865793.png
+26,Aleksandar Popovic,1800000,Dac Dunajska Streda,https://tmssl.akamaized.net//images/wappen/tiny/4529.png?lm=1658147404,https://img.a.transfermarkt.technology/portrait/medium/376449-1696587178.png
+27,Filipe,250000,Dac Dunajska Streda,https://tmssl.akamaized.net//images/wappen/tiny/4529.png?lm=1658147404,https://img.a.transfermarkt.technology/portrait/medium/899060-1768747676.png
+28,Jan-Christoph Bartels,200000,Dac Dunajska Streda,https://tmssl.akamaized.net//images/wappen/tiny/4529.png?lm=1658147404,https://img.a.transfermarkt.technology/portrait/medium/296346-1768747297.png
+29,Aljaz Ivacic,200000,Dac Dunajska Streda,https://tmssl.akamaized.net//images/wappen/tiny/4529.png?lm=1658147404,https://img.a.transfermarkt.technology/portrait/medium/231923-1740678581.jpg
+30,Klemen Nemanic,650000,Dac Dunajska Streda,https://tmssl.akamaized.net//images/wappen/tiny/4529.png?lm=1658147404,https://img.a.transfermarkt.technology/portrait/medium/245065-1768748156.png
+31,Taras Kacharaba,600000,Dac Dunajska Streda,https://tmssl.akamaized.net//images/wappen/tiny/4529.png?lm=1658147404,https://img.a.transfermarkt.technology/portrait/medium/213975-1768748027.png
+32,Filip Blazek,325000,Dac Dunajska Streda,https://tmssl.akamaized.net//images/wappen/tiny/4529.png?lm=1658147404,https://img.a.transfermarkt.technology/portrait/medium/405501-1768747464.png
+33,Rhyan Modesto,325000,Dac Dunajska Streda,https://tmssl.akamaized.net//images/wappen/tiny/4529.png?lm=1658147404,https://img.a.transfermarkt.technology/portrait/medium/1095546-1768748114.png
+34,Alex Mendez,350000,Dac Dunajska Streda,https://tmssl.akamaized.net//images/wappen/tiny/4529.png?lm=1658147404,https://img.a.transfermarkt.technology/portrait/medium/745366-1696587230.png
+35,Rachid Sande Barro,50000,Dac Dunajska Streda,https://tmssl.akamaized.net//images/wappen/tiny/4529.png?lm=1658147404,https://img.a.transfermarkt.technology/portrait/medium/1466079-1768747232.png
+36,Tsotne Kapanadze,750000,Dac Dunajska Streda,https://tmssl.akamaized.net//images/wappen/tiny/4529.png?lm=1658147404,https://img.a.transfermarkt.technology/portrait/medium/502677-1768748071.png
+37,Matus Kmet,700000,Dac Dunajska Streda,https://tmssl.akamaized.net//images/wappen/tiny/4529.png?lm=1658147404,https://img.a.transfermarkt.technology/portrait/medium/489870-1713619356.png
+38,Máté Tuboly,1800000,Dac Dunajska Streda,https://tmssl.akamaized.net//images/wappen/tiny/4529.png?lm=1658147404,https://img.a.transfermarkt.technology/portrait/medium/874947-1768748370.png
+39,Julien Eymard Bationo,750000,Dac Dunajska Streda,https://tmssl.akamaized.net//images/wappen/tiny/4529.png?lm=1658147404,https://img.a.transfermarkt.technology/portrait/medium/1380598-1768747352.png
+40,Samsindin Ouro,800000,Dac Dunajska Streda,https://tmssl.akamaized.net//images/wappen/tiny/4529.png?lm=1658147404,https://img.a.transfermarkt.technology/portrait/medium/521333-1768747145.png
+41,Christián Herc,450000,Dac Dunajska Streda,https://tmssl.akamaized.net//images/wappen/tiny/4529.png?lm=1658147404,https://img.a.transfermarkt.technology/portrait/medium/365765-1696587413.png
+42,Nathan Udvaros,375000,Dac Dunajska Streda,https://tmssl.akamaized.net//images/wappen/tiny/4529.png?lm=1658147404,https://img.a.transfermarkt.technology/portrait/medium/1197868-1768748414.png
+43,Karol Blasko,350000,Dac Dunajska Streda,https://tmssl.akamaized.net//images/wappen/tiny/4529.png?lm=1658147404,https://img.a.transfermarkt.technology/portrait/medium/1084447-1768747402.png
+44,Clement Ansah,125000,Dac Dunajska Streda,https://tmssl.akamaized.net//images/wappen/tiny/4529.png?lm=1658147404,https://img.a.transfermarkt.technology/portrait/medium/1184913-1707499991.png
+45,Fallou Diongue,75000,Dac Dunajska Streda,https://tmssl.akamaized.net//images/wappen/tiny/4529.png?lm=1658147404,https://img.a.transfermarkt.technology/portrait/medium/default.jpg
+46,Martin Jencus,25000,Dac Dunajska Streda,https://tmssl.akamaized.net//images/wappen/tiny/4529.png?lm=1658147404,https://img.a.transfermarkt.technology/portrait/medium/default.jpg
+47,Viktor Djukanovic,2300000,Dac Dunajska Streda,https://tmssl.akamaized.net//images/wappen/tiny/4529.png?lm=1658147404,https://img.a.transfermarkt.technology/portrait/medium/760493-1768747634.png
+48,Ammar Ramadan,2300000,Dac Dunajska Streda,https://tmssl.akamaized.net//images/wappen/tiny/4529.png?lm=1658147404,https://img.a.transfermarkt.technology/portrait/medium/490811-1696587341.png
+49,Abdoulaye Gueye,400000,Dac Dunajska Streda,https://tmssl.akamaized.net//images/wappen/tiny/4529.png?lm=1658147404,https://img.a.transfermarkt.technology/portrait/medium/1379812-1768747984.png
+50,Alioune Sylla,350000,Dac Dunajska Streda,https://tmssl.akamaized.net//images/wappen/tiny/4529.png?lm=1658147404,https://img.a.transfermarkt.technology/portrait/medium/921203-1768748209.png
+51,Matej Trusa,700000,Dac Dunajska Streda,https://tmssl.akamaized.net//images/wappen/tiny/4529.png?lm=1658147404,https://img.a.transfermarkt.technology/portrait/medium/652698-1696587641.png
+52,Andreas Gruber,550000,Dac Dunajska Streda,https://tmssl.akamaized.net//images/wappen/tiny/4529.png?lm=1658147404,https://img.a.transfermarkt.technology/portrait/medium/194477-1768747721.png
+53,Giorgi Gagua,400000,Dac Dunajska Streda,https://tmssl.akamaized.net//images/wappen/tiny/4529.png?lm=1658147404,https://img.a.transfermarkt.technology/portrait/medium/550492-1732992370.jpg
+54,Nino Kukovec,325000,Dac Dunajska Streda,https://tmssl.akamaized.net//images/wappen/tiny/4529.png?lm=1658147404,https://img.a.transfermarkt.technology/portrait/medium/502355-1614803709.jpg
+55,Pa Assan Corr,225000,Dac Dunajska Streda,https://tmssl.akamaized.net//images/wappen/tiny/4529.png?lm=1658147404,https://img.a.transfermarkt.technology/portrait/medium/1369810-1768747598.png
+56,Jakub Badzgon,300000,Msk Zilina,https://tmssl.akamaized.net//images/wappen/tiny/1443.png?lm=1737557020,https://img.a.transfermarkt.technology/portrait/medium/726654-1699980411.png
+57,Jakub Jokl,100000,Msk Zilina,https://tmssl.akamaized.net//images/wappen/tiny/1443.png?lm=1737557020,https://img.a.transfermarkt.technology/portrait/medium/969348-1700379976.png
+58,Dominik Svacek,75000,Msk Zilina,https://tmssl.akamaized.net//images/wappen/tiny/1443.png?lm=1737557020,https://img.a.transfermarkt.technology/portrait/medium/269167-1659989257.png
+59,Tobias Paliscak,2500000,Msk Zilina,https://tmssl.akamaized.net//images/wappen/tiny/1443.png?lm=1737557020,https://img.a.transfermarkt.technology/portrait/medium/1187621-1700380479.png
+60,Aleksandre Narimanidze,1200000,Msk Zilina,https://tmssl.akamaized.net//images/wappen/tiny/1443.png?lm=1737557020,https://img.a.transfermarkt.technology/portrait/medium/900470-1768928630.png
+61,Jan Minarik,300000,Msk Zilina,https://tmssl.akamaized.net//images/wappen/tiny/1443.png?lm=1737557020,https://img.a.transfermarkt.technology/portrait/medium/404784-1699980532.png
+62,Filip Kasa,200000,Msk Zilina,https://tmssl.akamaized.net//images/wappen/tiny/1443.png?lm=1737557020,https://img.a.transfermarkt.technology/portrait/medium/186527-1742565130.jpg
+63,Michal Svoboda,150000,Msk Zilina,https://tmssl.akamaized.net//images/wappen/tiny/1443.png?lm=1737557020,https://img.a.transfermarkt.technology/portrait/medium/726660-1717784561.jpeg
+64,Marek Okal,500000,Msk Zilina,https://tmssl.akamaized.net//images/wappen/tiny/1443.png?lm=1737557020,https://img.a.transfermarkt.technology/portrait/medium/1077724-1700380186.png
+65,Krisztian Bari,500000,Msk Zilina,https://tmssl.akamaized.net//images/wappen/tiny/1443.png?lm=1737557020,https://img.a.transfermarkt.technology/portrait/medium/570264-1699980602.png
+66,Timotej Hranica,500000,Msk Zilina,https://tmssl.akamaized.net//images/wappen/tiny/1443.png?lm=1737557020,https://img.a.transfermarkt.technology/portrait/medium/1018020-1700377363.png
+67,Xavier Adang,650000,Msk Zilina,https://tmssl.akamaized.net//images/wappen/tiny/1443.png?lm=1737557020,https://img.a.transfermarkt.technology/portrait/medium/1057803-1699981000.png
+68,Andrei Florea,350000,Msk Zilina,https://tmssl.akamaized.net//images/wappen/tiny/1443.png?lm=1737557020,https://img.a.transfermarkt.technology/portrait/medium/925843-1698056587.jpg
+69,Miroslav Kacer,325000,Msk Zilina,https://tmssl.akamaized.net//images/wappen/tiny/1443.png?lm=1737557020,https://img.a.transfermarkt.technology/portrait/medium/186382-1696587738.png
+70,Fabian Bzdyl,1500000,Msk Zilina,https://tmssl.akamaized.net//images/wappen/tiny/1443.png?lm=1737557020,https://img.a.transfermarkt.technology/portrait/medium/1143311-1707210046.png
+71,Michal Fasko,400000,Msk Zilina,https://tmssl.akamaized.net//images/wappen/tiny/1443.png?lm=1737557020,https://img.a.transfermarkt.technology/portrait/medium/178914-1698788190.png
+72,Samuel Datko,400000,Msk Zilina,https://tmssl.akamaized.net//images/wappen/tiny/1443.png?lm=1737557020,https://img.a.transfermarkt.technology/portrait/medium/483956-1713621046.png
+73,Patrik Ilko,300000,Msk Zilina,https://tmssl.akamaized.net//images/wappen/tiny/1443.png?lm=1737557020,https://img.a.transfermarkt.technology/portrait/medium/565050-1699981016.png
+74,Frantisek Kosa,275000,Msk Zilina,https://tmssl.akamaized.net//images/wappen/tiny/1443.png?lm=1737557020,https://img.a.transfermarkt.technology/portrait/medium/969354-1700378407.png
+75,Regő Szánthó,250000,Msk Zilina,https://tmssl.akamaized.net//images/wappen/tiny/1443.png?lm=1737557020,https://img.a.transfermarkt.technology/portrait/medium/551206-1658146924.png
+76,Marko Roginic,350000,Msk Zilina,https://tmssl.akamaized.net//images/wappen/tiny/1443.png?lm=1737557020,https://img.a.transfermarkt.technology/portrait/medium/317504-1729186189.jpg
+77,Lukas Prokop,250000,Msk Zilina,https://tmssl.akamaized.net//images/wappen/tiny/1443.png?lm=1737557020,https://img.a.transfermarkt.technology/portrait/medium/726658-1700377863.png
+78,Dani Homet,200000,Msk Zilina,https://tmssl.akamaized.net//images/wappen/tiny/1443.png?lm=1737557020,https://img.a.transfermarkt.technology/portrait/medium/default.jpg
+79,Lukas Julis,175000,Msk Zilina,https://tmssl.akamaized.net//images/wappen/tiny/1443.png?lm=1737557020,https://img.a.transfermarkt.technology/portrait/medium/147550-1701892823.png
+80,Nehuén Mendoza,50000,Msk Zilina,https://tmssl.akamaized.net//images/wappen/tiny/1443.png?lm=1737557020,https://img.a.transfermarkt.technology/portrait/medium/default.jpg
+81,Andrija Katic,550000,As Trencin,https://tmssl.akamaized.net//images/wappen/tiny/7918.png?lm=1741169282,https://img.a.transfermarkt.technology/portrait/medium/581018-1704664127.jpg
+82,Matus Slavicek,200000,As Trencin,https://tmssl.akamaized.net//images/wappen/tiny/7918.png?lm=1741169282,https://img.a.transfermarkt.technology/portrait/medium/802834-1713587500.png
+83,Alex Hudok,100000,As Trencin,https://tmssl.akamaized.net//images/wappen/tiny/7918.png?lm=1741169282,https://img.a.transfermarkt.technology/portrait/medium/969346-1713587539.png
+84,Luka Damjanovic,100000,As Trencin,https://tmssl.akamaized.net//images/wappen/tiny/7918.png?lm=1741169282,https://img.a.transfermarkt.technology/portrait/medium/default.jpg
+85,Papa Diouf,375000,As Trencin,https://tmssl.akamaized.net//images/wappen/tiny/7918.png?lm=1741169282,https://img.a.transfermarkt.technology/portrait/medium/default.jpg
+86,Loïc Bessilé,300000,As Trencin,https://tmssl.akamaized.net//images/wappen/tiny/7918.png?lm=1741169282,https://img.a.transfermarkt.technology/portrait/medium/371150-1672563942.jpg
+87,Richard Krizan,200000,As Trencin,https://tmssl.akamaized.net//images/wappen/tiny/7918.png?lm=1741169282,https://img.a.transfermarkt.technology/portrait/medium/471135-1713528920.png
+88,Viktor Simic,50000,As Trencin,https://tmssl.akamaized.net//images/wappen/tiny/7918.png?lm=1741169282,https://img.a.transfermarkt.technology/portrait/medium/default.jpg
+89,Nikolas Brandis,375000,As Trencin,https://tmssl.akamaized.net//images/wappen/tiny/7918.png?lm=1741169282,https://img.a.transfermarkt.technology/portrait/medium/default.jpg
+90,Lukas Skovajsa,100000,As Trencin,https://tmssl.akamaized.net//images/wappen/tiny/7918.png?lm=1741169282,https://img.a.transfermarkt.technology/portrait/medium/232390-1713619288.png
+91,Jakub Holubek,75000,As Trencin,https://tmssl.akamaized.net//images/wappen/tiny/7918.png?lm=1741169282,https://img.a.transfermarkt.technology/portrait/medium/192731-1671384667.jpg
+92,Hugo Pavek,650000,As Trencin,https://tmssl.akamaized.net//images/wappen/tiny/7918.png?lm=1741169282,https://img.a.transfermarkt.technology/portrait/medium/726667-1581658737.png
+93,Kristo Hussar,300000,As Trencin,https://tmssl.akamaized.net//images/wappen/tiny/7918.png?lm=1741169282,https://img.a.transfermarkt.technology/portrait/medium/529512-1647371298.jpg
+94,Sean Goss,200000,As Trencin,https://tmssl.akamaized.net//images/wappen/tiny/7918.png?lm=1741169282,https://img.a.transfermarkt.technology/portrait/medium/289843-1727786682.jpg
+95,Antonio Bazdaric,175000,As Trencin,https://tmssl.akamaized.net//images/wappen/tiny/7918.png?lm=1741169282,https://img.a.transfermarkt.technology/portrait/medium/default.jpg
+96,Tadeas Hajovsky,700000,As Trencin,https://tmssl.akamaized.net//images/wappen/tiny/7918.png?lm=1741169282,https://img.a.transfermarkt.technology/portrait/medium/726668-1713619405.png
+97,Markus Poom,350000,As Trencin,https://tmssl.akamaized.net//images/wappen/tiny/7918.png?lm=1741169282,https://img.a.transfermarkt.technology/portrait/medium/322683-1647371419.jpg
+98,Fedor Kasana,150000,As Trencin,https://tmssl.akamaized.net//images/wappen/tiny/7918.png?lm=1741169282,https://img.a.transfermarkt.technology/portrait/medium/default.jpg
+99,Gia Nadareishvili,150000,As Trencin,https://tmssl.akamaized.net//images/wappen/tiny/7918.png?lm=1741169282,https://img.a.transfermarkt.technology/portrait/medium/1138811-1692662290.png
+100,Richie Musaba,300000,As Trencin,https://tmssl.akamaized.net//images/wappen/tiny/7918.png?lm=1741169282,https://img.a.transfermarkt.technology/portrait/medium/495963-1709836044.png
+101,Jesse Khan,125000,As Trencin,https://tmssl.akamaized.net//images/wappen/tiny/7918.png?lm=1741169282,https://img.a.transfermarkt.technology/portrait/medium/902200-1728071554.png
+102,Marselino Ferdinan,100000,As Trencin,https://tmssl.akamaized.net//images/wappen/tiny/7918.png?lm=1741169282,https://img.a.transfermarkt.technology/portrait/medium/875219-1692895052.jpg
+103,Shakhmurza Adyrbekov,75000,As Trencin,https://tmssl.akamaized.net//images/wappen/tiny/7918.png?lm=1741169282,https://img.a.transfermarkt.technology/portrait/medium/1255421-1718812694.png
+104,Denis Adamkovic,75000,As Trencin,https://tmssl.akamaized.net//images/wappen/tiny/7918.png?lm=1741169282,https://img.a.transfermarkt.technology/portrait/medium/default.jpg
+105,Eynel Soares,400000,As Trencin,https://tmssl.akamaized.net//images/wappen/tiny/7918.png?lm=1741169282,https://img.a.transfermarkt.technology/portrait/medium/581000-1719322739.png
+106,Dimitri Jepihhin,300000,As Trencin,https://tmssl.akamaized.net//images/wappen/tiny/7918.png?lm=1741169282,https://img.a.transfermarkt.technology/portrait/medium/707982-1709884615.jpg
+107,Nentaka Bangs,25000,As Trencin,https://tmssl.akamaized.net//images/wappen/tiny/7918.png?lm=1741169282,https://img.a.transfermarkt.technology/portrait/medium/default.jpg
+108,Roshaun Mathurin,150000,As Trencin,https://tmssl.akamaized.net//images/wappen/tiny/7918.png?lm=1741169282,https://img.a.transfermarkt.technology/portrait/medium/706822-1774345679.jpg
+109,Dylann Kam,150000,As Trencin,https://tmssl.akamaized.net//images/wappen/tiny/7918.png?lm=1741169282,https://img.a.transfermarkt.technology/portrait/medium/854484-1713343288.png
+110,Cody David,400000,As Trencin,https://tmssl.akamaized.net//images/wappen/tiny/7918.png?lm=1741169282,https://img.a.transfermarkt.technology/portrait/medium/503727-1779635167.JPG
+111,Lukas Mikulaj,400000,As Trencin,https://tmssl.akamaized.net//images/wappen/tiny/7918.png?lm=1741169282,https://img.a.transfermarkt.technology/portrait/medium/1059344-1713619929.png
+112,Franko Sabljic,125000,As Trencin,https://tmssl.akamaized.net//images/wappen/tiny/7918.png?lm=1741169282,https://img.a.transfermarkt.technology/portrait/medium/687464-1659210591.jpg
+113,Pepijn Doesburg,125000,As Trencin,https://tmssl.akamaized.net//images/wappen/tiny/7918.png?lm=1741169282,https://img.a.transfermarkt.technology/portrait/medium/514280-1676562735.jpg
+114,Matej Juricka,275000,Fk Zeleziarne Podbrezova,https://tmssl.akamaized.net//images/wappen/tiny/20063.png?lm=1611248461,https://img.a.transfermarkt.technology/portrait/medium/1081258-1777379168.jpg
+115,Lukas Domanisky,100000,Fk Zeleziarne Podbrezova,https://tmssl.akamaized.net//images/wappen/tiny/20063.png?lm=1611248461,https://img.a.transfermarkt.technology/portrait/medium/default.jpg
+116,Filip Mielke,1000000,Fk Zeleziarne Podbrezova,https://tmssl.akamaized.net//images/wappen/tiny/20063.png?lm=1611248461,https://img.a.transfermarkt.technology/portrait/medium/804559-1750680720.jpg
+117,Rene Rantusa Lampreht,350000,Fk Zeleziarne Podbrezova,https://tmssl.akamaized.net//images/wappen/tiny/20063.png?lm=1611248461,https://img.a.transfermarkt.technology/portrait/medium/912892-1690049804.jpg
+118,Jakub Luka,300000,Fk Zeleziarne Podbrezova,https://tmssl.akamaized.net//images/wappen/tiny/20063.png?lm=1611248461,https://img.a.transfermarkt.technology/portrait/medium/582389-1709894850.jpg
+119,Matej Oravec,125000,Fk Zeleziarne Podbrezova,https://tmssl.akamaized.net//images/wappen/tiny/20063.png?lm=1611248461,https://img.a.transfermarkt.technology/portrait/medium/389619-1618762056.JPG
+120,Alex Lajciak,75000,Fk Zeleziarne Podbrezova,https://tmssl.akamaized.net//images/wappen/tiny/20063.png?lm=1611248461,https://img.a.transfermarkt.technology/portrait/medium/default.jpg
+121,Peter Kovacik,450000,Fk Zeleziarne Podbrezova,https://tmssl.akamaized.net//images/wappen/tiny/20063.png?lm=1611248461,https://img.a.transfermarkt.technology/portrait/medium/704979-1717478446.jpg
+122,Kevor Palumets,450000,Fk Zeleziarne Podbrezova,https://tmssl.akamaized.net//images/wappen/tiny/20063.png?lm=1611248461,https://img.a.transfermarkt.technology/portrait/medium/571037-1709895547.jpeg
+123,Vincent Chyla,400000,Fk Zeleziarne Podbrezova,https://tmssl.akamaized.net//images/wappen/tiny/20063.png?lm=1611248461,https://img.a.transfermarkt.technology/portrait/medium/906458-1700377565.png
+124,Simon Fasko,325000,Fk Zeleziarne Podbrezova,https://tmssl.akamaized.net//images/wappen/tiny/20063.png?lm=1611248461,https://img.a.transfermarkt.technology/portrait/medium/default.jpg
+125,Rene Paraj,100000,Fk Zeleziarne Podbrezova,https://tmssl.akamaized.net//images/wappen/tiny/20063.png?lm=1611248461,https://img.a.transfermarkt.technology/portrait/medium/default.jpg
+126,Ondrej Deml,350000,Fk Zeleziarne Podbrezova,https://tmssl.akamaized.net//images/wappen/tiny/20063.png?lm=1611248461,https://img.a.transfermarkt.technology/portrait/medium/default.jpg
+127,Andriy Gavrylenko,150000,Fk Zeleziarne Podbrezova,https://tmssl.akamaized.net//images/wappen/tiny/20063.png?lm=1611248461,https://img.a.transfermarkt.technology/portrait/medium/729438-1713446513.png
+128,Davit Hakobyan,175000,Fk Zeleziarne Podbrezova,https://tmssl.akamaized.net//images/wappen/tiny/20063.png?lm=1611248461,https://img.a.transfermarkt.technology/portrait/medium/default.jpg
+129,Samuel Stefanik,100000,Fk Zeleziarne Podbrezova,https://tmssl.akamaized.net//images/wappen/tiny/20063.png?lm=1611248461,https://img.a.transfermarkt.technology/portrait/medium/132376-1438087499.jpg
+130,Luka Silagadze,325000,Fk Zeleziarne Podbrezova,https://tmssl.akamaized.net//images/wappen/tiny/20063.png?lm=1611248461,https://img.a.transfermarkt.technology/portrait/medium/465624-1726497293.png
+131,Balsa Mrvaljevic,175000,Fk Zeleziarne Podbrezova,https://tmssl.akamaized.net//images/wappen/tiny/20063.png?lm=1611248461,https://img.a.transfermarkt.technology/portrait/medium/default.jpg
+132,Roland Galcik,450000,Fk Zeleziarne Podbrezova,https://tmssl.akamaized.net//images/wappen/tiny/20063.png?lm=1611248461,https://img.a.transfermarkt.technology/portrait/medium/627030-1780557541.jpg
+133,Ridwan Sanusi,375000,Fk Zeleziarne Podbrezova,https://tmssl.akamaized.net//images/wappen/tiny/20063.png?lm=1611248461,https://img.a.transfermarkt.technology/portrait/medium/default.jpg
+134,Radek Siler,850000,Fk Zeleziarne Podbrezova,https://tmssl.akamaized.net//images/wappen/tiny/20063.png?lm=1611248461,https://img.a.transfermarkt.technology/portrait/medium/1046726-1705904162.jpg
+135,Ousman Kujabi,150000,Fk Zeleziarne Podbrezova,https://tmssl.akamaized.net//images/wappen/tiny/20063.png?lm=1611248461,https://img.a.transfermarkt.technology/portrait/medium/default.jpg
+136,Matus Marcin,125000,Fk Zeleziarne Podbrezova,https://tmssl.akamaized.net//images/wappen/tiny/20063.png?lm=1611248461,https://img.a.transfermarkt.technology/portrait/medium/225706-1706993818.png
+137,Maksym Khyminets,75000,Fk Zeleziarne Podbrezova,https://tmssl.akamaized.net//images/wappen/tiny/20063.png?lm=1611248461,https://img.a.transfermarkt.technology/portrait/medium/1044918-1746180718.png
+138,Jakub Rehak,25000,Fk Zeleziarne Podbrezova,https://tmssl.akamaized.net//images/wappen/tiny/20063.png?lm=1611248461,https://img.a.transfermarkt.technology/portrait/medium/default.jpg
+139,Ziga Frelih,400000,Spartak Trnava,https://tmssl.akamaized.net//images/wappen/tiny/365.png?lm=1622062546,https://img.a.transfermarkt.technology/portrait/medium/383774-1706989988.png
+140,Martin Vantruba,200000,Spartak Trnava,https://tmssl.akamaized.net//images/wappen/tiny/365.png?lm=1622062546,https://img.a.transfermarkt.technology/portrait/medium/default.jpg
+141,Patrik Vasil,100000,Spartak Trnava,https://tmssl.akamaized.net//images/wappen/tiny/365.png?lm=1622062546,https://img.a.transfermarkt.technology/portrait/medium/726666-1717822148.png
+142,Patrick Nwadike,400000,Spartak Trnava,https://tmssl.akamaized.net//images/wappen/tiny/365.png?lm=1622062546,https://img.a.transfermarkt.technology/portrait/medium/435511-1724965949.jpg
+143,Lazar Stojsavljevic,250000,Spartak Trnava,https://tmssl.akamaized.net//images/wappen/tiny/365.png?lm=1622062546,https://img.a.transfermarkt.technology/portrait/medium/542451-1740074021.png
+144,Kristian Kostrna,225000,Spartak Trnava,https://tmssl.akamaized.net//images/wappen/tiny/365.png?lm=1622062546,https://img.a.transfermarkt.technology/portrait/medium/108405-1551737569.png
+145,Patrick Karhan,150000,Spartak Trnava,https://tmssl.akamaized.net//images/wappen/tiny/365.png?lm=1622062546,https://img.a.transfermarkt.technology/portrait/medium/736920-1584959195.png
+146,Filip Twardzik,100000,Spartak Trnava,https://tmssl.akamaized.net//images/wappen/tiny/365.png?lm=1622062546,https://img.a.transfermarkt.technology/portrait/medium/93873-1693945597.jpg
+147,Roko Jureskin,275000,Spartak Trnava,https://tmssl.akamaized.net//images/wappen/tiny/365.png?lm=1622062546,https://img.a.transfermarkt.technology/portrait/medium/686693-1725600493.png
+148,Martin Mikovic,100000,Spartak Trnava,https://tmssl.akamaized.net//images/wappen/tiny/365.png?lm=1622062546,https://img.a.transfermarkt.technology/portrait/medium/147113-1548864379.jpg
+149,Libor Holik,350000,Spartak Trnava,https://tmssl.akamaized.net//images/wappen/tiny/365.png?lm=1622062546,https://img.a.transfermarkt.technology/portrait/medium/323903-1615900053.jpg
+150,Michal Tomic,250000,Spartak Trnava,https://tmssl.akamaized.net//images/wappen/tiny/365.png?lm=1622062546,https://img.a.transfermarkt.technology/portrait/medium/344321-1697831474.png
+151,Roman Prochazka,100000,Spartak Trnava,https://tmssl.akamaized.net//images/wappen/tiny/365.png?lm=1622062546,https://img.a.transfermarkt.technology/portrait/medium/80690-1658513000.png
+152,Giorgi Moistsrapishvili,400000,Spartak Trnava,https://tmssl.akamaized.net//images/wappen/tiny/365.png?lm=1622062546,https://img.a.transfermarkt.technology/portrait/medium/659743-1685093314.png
+153,Milos Kratochvil,350000,Spartak Trnava,https://tmssl.akamaized.net//images/wappen/tiny/365.png?lm=1622062546,https://img.a.transfermarkt.technology/portrait/medium/289464-1699719436.png
+154,Marin Lausic,325000,Spartak Trnava,https://tmssl.akamaized.net//images/wappen/tiny/365.png?lm=1622062546,https://img.a.transfermarkt.technology/portrait/medium/671304-1742395441.png
+155,Erik Sabo,100000,Spartak Trnava,https://tmssl.akamaized.net//images/wappen/tiny/365.png?lm=1622062546,https://img.a.transfermarkt.technology/portrait/medium/155597-1634686728.png
+156,Luka Khorkheli,350000,Spartak Trnava,https://tmssl.akamaized.net//images/wappen/tiny/365.png?lm=1622062546,https://img.a.transfermarkt.technology/portrait/medium/989159-1685111495.png
+157,Timotej Kudlicka,325000,Spartak Trnava,https://tmssl.akamaized.net//images/wappen/tiny/365.png?lm=1622062546,https://img.a.transfermarkt.technology/portrait/medium/582431-1700377635.png
+158,Stefan Skrbo,350000,Spartak Trnava,https://tmssl.akamaized.net//images/wappen/tiny/365.png?lm=1622062546,https://img.a.transfermarkt.technology/portrait/medium/589746-1722352188.jpg
+159,Philip Azango,300000,Spartak Trnava,https://tmssl.akamaized.net//images/wappen/tiny/365.png?lm=1622062546,https://img.a.transfermarkt.technology/portrait/medium/539262-1754414625.jpg
+160,Hilary Gong,300000,Spartak Trnava,https://tmssl.akamaized.net//images/wappen/tiny/365.png?lm=1622062546,https://img.a.transfermarkt.technology/portrait/medium/477306-1713619688.png
+161,Abdulrahman Taiwo,400000,Spartak Trnava,https://tmssl.akamaized.net//images/wappen/tiny/365.png?lm=1622062546,https://img.a.transfermarkt.technology/portrait/medium/350398-1726499684.png
+162,Idjessi Metsoko,350000,Spartak Trnava,https://tmssl.akamaized.net//images/wappen/tiny/365.png?lm=1622062546,https://img.a.transfermarkt.technology/portrait/medium/913305-1701640060.png
+163,Jakub Paur,100000,Spartak Trnava,https://tmssl.akamaized.net//images/wappen/tiny/365.png?lm=1622062546,https://img.a.transfermarkt.technology/portrait/medium/187761-1581488876.png
+164,Michal Duris,75000,Spartak Trnava,https://tmssl.akamaized.net//images/wappen/tiny/365.png?lm=1622062546,https://img.a.transfermarkt.technology/portrait/medium/74872-1554137872.png
+165,Maciej Dabrowski,225000,Fc Kosice,https://tmssl.akamaized.net//images/wappen/tiny/51316.png?lm=1720645148,https://img.a.transfermarkt.technology/portrait/medium/366212-1623746911.jpg
+166,David Sipos,150000,Fc Kosice,https://tmssl.akamaized.net//images/wappen/tiny/51316.png?lm=1720645148,https://img.a.transfermarkt.technology/portrait/medium/465006-1700723638.png
+167,Matus Kira,100000,Fc Kosice,https://tmssl.akamaized.net//images/wappen/tiny/51316.png?lm=1720645148,https://img.a.transfermarkt.technology/portrait/medium/366935-1581912196.png
+168,Filip Kalanin,100000,Fc Kosice,https://tmssl.akamaized.net//images/wappen/tiny/51316.png?lm=1720645148,https://img.a.transfermarkt.technology/portrait/medium/default.jpg
+169,Sebastian Kosa,550000,Fc Kosice,https://tmssl.akamaized.net//images/wappen/tiny/51316.png?lm=1720645148,https://img.a.transfermarkt.technology/portrait/medium/582429-1676452707.png
+170,Tomas Durko,275000,Fc Kosice,https://tmssl.akamaized.net//images/wappen/tiny/51316.png?lm=1720645148,https://img.a.transfermarkt.technology/portrait/medium/default.jpg
+171,Dominik Kruzliak,225000,Fc Kosice,https://tmssl.akamaized.net//images/wappen/tiny/51316.png?lm=1720645148,https://img.a.transfermarkt.technology/portrait/medium/315441-1658146561.png
+172,Jan Krivak,125000,Fc Kosice,https://tmssl.akamaized.net//images/wappen/tiny/51316.png?lm=1720645148,https://img.a.transfermarkt.technology/portrait/medium/424194-1602418203.png
+173,Emilian Metu,125000,Fc Kosice,https://tmssl.akamaized.net//images/wappen/tiny/51316.png?lm=1720645148,https://img.a.transfermarkt.technology/portrait/medium/580622-1662622723.jpg
+174,Matej Madlenak,250000,Fc Kosice,https://tmssl.akamaized.net//images/wappen/tiny/51316.png?lm=1720645148,https://img.a.transfermarkt.technology/portrait/medium/470846-1746339292.png
+175,Leonardo Lukacevic,225000,Fc Kosice,https://tmssl.akamaized.net//images/wappen/tiny/51316.png?lm=1720645148,https://img.a.transfermarkt.technology/portrait/medium/321870-1752849588.jpg
+176,Osman Kakay,225000,Fc Kosice,https://tmssl.akamaized.net//images/wappen/tiny/51316.png?lm=1720645148,https://img.a.transfermarkt.technology/portrait/medium/419576-1594032342.jpg
+177,Daniel Magda,175000,Fc Kosice,https://tmssl.akamaized.net//images/wappen/tiny/51316.png?lm=1720645148,https://img.a.transfermarkt.technology/portrait/medium/408887-1706992829.png
+178,Erlantz Palacín,50000,Fc Kosice,https://tmssl.akamaized.net//images/wappen/tiny/51316.png?lm=1720645148,https://img.a.transfermarkt.technology/portrait/medium/938696-1709677138.png
+179,Milan Dimun,200000,Fc Kosice,https://tmssl.akamaized.net//images/wappen/tiny/51316.png?lm=1720645148,https://img.a.transfermarkt.technology/portrait/medium/291232-1696587695.png
+180,Filip Lichy,250000,Fc Kosice,https://tmssl.akamaized.net//images/wappen/tiny/51316.png?lm=1720645148,https://img.a.transfermarkt.technology/portrait/medium/344322-1713529572.png
+181,David Gallovic,200000,Fc Kosice,https://tmssl.akamaized.net//images/wappen/tiny/51316.png?lm=1720645148,https://img.a.transfermarkt.technology/portrait/medium/403495-1698787844.png
+182,Marek Zsigmund,200000,Fc Kosice,https://tmssl.akamaized.net//images/wappen/tiny/51316.png?lm=1720645148,https://img.a.transfermarkt.technology/portrait/medium/243260-1584950575.png
+183,Matej Jakubek,125000,Fc Kosice,https://tmssl.akamaized.net//images/wappen/tiny/51316.png?lm=1720645148,https://img.a.transfermarkt.technology/portrait/medium/168405-1698788617.png
+184,Juraj Teplan,75000,Fc Kosice,https://tmssl.akamaized.net//images/wappen/tiny/51316.png?lm=1720645148,https://img.a.transfermarkt.technology/portrait/medium/default.jpg
+185,Mátyás Kovács,500000,Fc Kosice,https://tmssl.akamaized.net//images/wappen/tiny/51316.png?lm=1720645148,https://img.a.transfermarkt.technology/portrait/medium/default.jpg
+186,Miroslav Sovic,225000,Fc Kosice,https://tmssl.akamaized.net//images/wappen/tiny/51316.png?lm=1720645148,https://img.a.transfermarkt.technology/portrait/medium/907869-1698787867.png
+187,Edin Julardzija,100000,Fc Kosice,https://tmssl.akamaized.net//images/wappen/tiny/51316.png?lm=1720645148,https://img.a.transfermarkt.technology/portrait/medium/491033-1759082550.jpg
+188,Roman Cerepkai,500000,Fc Kosice,https://tmssl.akamaized.net//images/wappen/tiny/51316.png?lm=1720645148,https://img.a.transfermarkt.technology/portrait/medium/546879-1648491925.png
+189,Vladimir Perisic,450000,Fc Kosice,https://tmssl.akamaized.net//images/wappen/tiny/51316.png?lm=1720645148,https://img.a.transfermarkt.technology/portrait/medium/default.jpg
+190,Milan Rehus,400000,Fc Kosice,https://tmssl.akamaized.net//images/wappen/tiny/51316.png?lm=1720645148,https://img.a.transfermarkt.technology/portrait/medium/726662-1730192258.jpg
+191,Karlo Miljanic,225000,Fc Kosice,https://tmssl.akamaized.net//images/wappen/tiny/51316.png?lm=1720645148,https://img.a.transfermarkt.technology/portrait/medium/587512-1755306545.jpg
+192,David Huska,175000,Mfk Ruzomberok,https://tmssl.akamaized.net//images/wappen/tiny/7087.png?lm=1518015311,https://img.a.transfermarkt.technology/portrait/medium/1033780-1659989185.png
+193,Attila Horvath,75000,Mfk Ruzomberok,https://tmssl.akamaized.net//images/wappen/tiny/7087.png?lm=1518015311,https://img.a.transfermarkt.technology/portrait/medium/809926-1658146308.png
+194,Branislav Sokol,25000,Mfk Ruzomberok,https://tmssl.akamaized.net//images/wappen/tiny/7087.png?lm=1518015311,https://img.a.transfermarkt.technology/portrait/medium/default.jpg
+195,Tomas Kral,850000,Mfk Ruzomberok,https://tmssl.akamaized.net//images/wappen/tiny/7087.png?lm=1518015311,https://img.a.transfermarkt.technology/portrait/medium/832940-1702843946.png
+196,Lukas Endl,325000,Mfk Ruzomberok,https://tmssl.akamaized.net//images/wappen/tiny/7087.png?lm=1518015311,https://img.a.transfermarkt.technology/portrait/medium/652055-1710220633.png
+197,Alexander Mojzis,300000,Mfk Ruzomberok,https://tmssl.akamaized.net//images/wappen/tiny/7087.png?lm=1518015311,https://img.a.transfermarkt.technology/portrait/medium/546831-1584950376.png
+198,Daniel Köstl,300000,Mfk Ruzomberok,https://tmssl.akamaized.net//images/wappen/tiny/7087.png?lm=1518015311,https://img.a.transfermarkt.technology/portrait/medium/293358-1707975035.jpg
+199,Alexander Selecky,375000,Mfk Ruzomberok,https://tmssl.akamaized.net//images/wappen/tiny/7087.png?lm=1518015311,https://img.a.transfermarkt.technology/portrait/medium/default.jpg
+200,Dominik Masek,175000,Mfk Ruzomberok,https://tmssl.akamaized.net//images/wappen/tiny/7087.png?lm=1518015311,https://img.a.transfermarkt.technology/portrait/medium/817174-1761934462.png
+201,Giuliano Antonio Marek,100000,Mfk Ruzomberok,https://tmssl.akamaized.net//images/wappen/tiny/7087.png?lm=1518015311,https://img.a.transfermarkt.technology/portrait/medium/default.jpg
+202,Adrian Slavik,125000,Mfk Ruzomberok,https://tmssl.akamaized.net//images/wappen/tiny/7087.png?lm=1518015311,https://img.a.transfermarkt.technology/portrait/medium/429717-1699719116.png
+203,Martin Sulek,125000,Mfk Ruzomberok,https://tmssl.akamaized.net//images/wappen/tiny/7087.png?lm=1518015311,https://img.a.transfermarkt.technology/portrait/medium/365469-1669141254.png
+204,Martin Gomola,125000,Mfk Ruzomberok,https://tmssl.akamaized.net//images/wappen/tiny/7087.png?lm=1518015311,https://img.a.transfermarkt.technology/portrait/medium/652886-1699980806.png
+205,Jan Murgas,150000,Mfk Ruzomberok,https://tmssl.akamaized.net//images/wappen/tiny/7087.png?lm=1518015311,https://img.a.transfermarkt.technology/portrait/medium/688985-1755093255.jpg
+206,Martin Bacik,350000,Mfk Ruzomberok,https://tmssl.akamaized.net//images/wappen/tiny/7087.png?lm=1518015311,https://img.a.transfermarkt.technology/portrait/medium/default.jpg
+207,Oliver Luteran,325000,Mfk Ruzomberok,https://tmssl.akamaized.net//images/wappen/tiny/7087.png?lm=1518015311,https://img.a.transfermarkt.technology/portrait/medium/655732-1581916515.png
+208,Samuel Grygar,325000,Mfk Ruzomberok,https://tmssl.akamaized.net//images/wappen/tiny/7087.png?lm=1518015311,https://img.a.transfermarkt.technology/portrait/medium/default.jpg
+209,Timotej Mudry,200000,Mfk Ruzomberok,https://tmssl.akamaized.net//images/wappen/tiny/7087.png?lm=1518015311,https://img.a.transfermarkt.technology/portrait/medium/549932-1584950679.png
+210,Lukas Fila,200000,Mfk Ruzomberok,https://tmssl.akamaized.net//images/wappen/tiny/7087.png?lm=1518015311,https://img.a.transfermarkt.technology/portrait/medium/897297-1731173736.png
+211,Vojtech Novak,75000,Mfk Ruzomberok,https://tmssl.akamaized.net//images/wappen/tiny/7087.png?lm=1518015311,https://img.a.transfermarkt.technology/portrait/medium/default.jpg
+212,Tomas Buchvaldek,75000,Mfk Ruzomberok,https://tmssl.akamaized.net//images/wappen/tiny/7087.png?lm=1518015311,https://img.a.transfermarkt.technology/portrait/medium/default.jpg
+213,Adam Tucny,225000,Mfk Ruzomberok,https://tmssl.akamaized.net//images/wappen/tiny/7087.png?lm=1518015311,https://img.a.transfermarkt.technology/portrait/medium/698254-1767762425.jpg
+214,Marian Chobot,150000,Mfk Ruzomberok,https://tmssl.akamaized.net//images/wappen/tiny/7087.png?lm=1518015311,https://img.a.transfermarkt.technology/portrait/medium/465046-1581567166.png
+215,Jan Hladik,175000,Mfk Ruzomberok,https://tmssl.akamaized.net//images/wappen/tiny/7087.png?lm=1518015311,https://img.a.transfermarkt.technology/portrait/medium/default.jpg
+216,Martin Chrien,175000,Mfk Ruzomberok,https://tmssl.akamaized.net//images/wappen/tiny/7087.png?lm=1518015311,https://img.a.transfermarkt.technology/portrait/medium/252712-1572341994.jpg
+217,Ondrej Sasinka,125000,Mfk Ruzomberok,https://tmssl.akamaized.net//images/wappen/tiny/7087.png?lm=1518015311,https://img.a.transfermarkt.technology/portrait/medium/293366-1615900362.jpg
+218,Martin Boda,100000,Mfk Ruzomberok,https://tmssl.akamaized.net//images/wappen/tiny/7087.png?lm=1518015311,https://img.a.transfermarkt.technology/portrait/medium/default.jpg
+219,David Jackuliak,75000,Mfk Ruzomberok,https://tmssl.akamaized.net//images/wappen/tiny/7087.png?lm=1518015311,https://img.a.transfermarkt.technology/portrait/medium/default.jpg
+220,Patrik Jevos,75000,Mfk Ruzomberok,https://tmssl.akamaized.net//images/wappen/tiny/7087.png?lm=1518015311,https://img.a.transfermarkt.technology/portrait/medium/default.jpg
+221,Marko Kelemen,75000,Mfk Ruzomberok,https://tmssl.akamaized.net//images/wappen/tiny/7087.png?lm=1518015311,https://img.a.transfermarkt.technology/portrait/medium/489871-1584677320.png
+222,Patrik Lukac,125000,Zemplin Michalovce,https://tmssl.akamaized.net//images/wappen/tiny/13744.png?lm=1736440579,https://img.a.transfermarkt.technology/portrait/medium/264766-1581916473.png
+223,Adam Jakubech,125000,Zemplin Michalovce,https://tmssl.akamaized.net//images/wappen/tiny/13744.png?lm=1736440579,https://img.a.transfermarkt.technology/portrait/medium/258267-1666690835.jpg
+224,Tornike Dzotsenidze,250000,Zemplin Michalovce,https://tmssl.akamaized.net//images/wappen/tiny/13744.png?lm=1736440579,https://img.a.transfermarkt.technology/portrait/medium/465622-1713621360.png
+225,Martin Bednar,250000,Zemplin Michalovce,https://tmssl.akamaized.net//images/wappen/tiny/13744.png?lm=1736440579,https://img.a.transfermarkt.technology/portrait/medium/344309-1706990257.png
+226,Polydefkis Volanakis,225000,Zemplin Michalovce,https://tmssl.akamaized.net//images/wappen/tiny/13744.png?lm=1736440579,https://img.a.transfermarkt.technology/portrait/medium/735419-1753191223.JPG
+227,Tae-rang Park,150000,Zemplin Michalovce,https://tmssl.akamaized.net//images/wappen/tiny/13744.png?lm=1736440579,https://img.a.transfermarkt.technology/portrait/medium/default.jpg
+228,Lazar Zaknic,50000,Zemplin Michalovce,https://tmssl.akamaized.net//images/wappen/tiny/13744.png?lm=1736440579,https://img.a.transfermarkt.technology/portrait/medium/851557-1727120114.jpg
+229,Franck Bahi,150000,Zemplin Michalovce,https://tmssl.akamaized.net//images/wappen/tiny/13744.png?lm=1736440579,https://img.a.transfermarkt.technology/portrait/medium/646376-1706992852.png
+230,Christos Makrygiannis,50000,Zemplin Michalovce,https://tmssl.akamaized.net//images/wappen/tiny/13744.png?lm=1736440579,https://img.a.transfermarkt.technology/portrait/medium/default.jpg
+231,Matej Curma,150000,Zemplin Michalovce,https://tmssl.akamaized.net//images/wappen/tiny/13744.png?lm=1736440579,https://img.a.transfermarkt.technology/portrait/medium/323294-1703613373.png
+232,Lukas Pauschek,125000,Zemplin Michalovce,https://tmssl.akamaized.net//images/wappen/tiny/13744.png?lm=1736440579,https://img.a.transfermarkt.technology/portrait/medium/179762-1713528829.png
+233,Dimos Papakonstantinou,10000,Zemplin Michalovce,https://tmssl.akamaized.net//images/wappen/tiny/13744.png?lm=1736440579,https://img.a.transfermarkt.technology/portrait/medium/default.jpg
+234,Ben Cottrell,350000,Zemplin Michalovce,https://tmssl.akamaized.net//images/wappen/tiny/13744.png?lm=1736440579,https://img.a.transfermarkt.technology/portrait/medium/470597-1611910637.jpg
+235,Nikita Mihhailov,300000,Zemplin Michalovce,https://tmssl.akamaized.net//images/wappen/tiny/13744.png?lm=1736440579,https://img.a.transfermarkt.technology/portrait/medium/493424-1709837887.png
+236,Abdul Zubairu,200000,Zemplin Michalovce,https://tmssl.akamaized.net//images/wappen/tiny/13744.png?lm=1736440579,https://img.a.transfermarkt.technology/portrait/medium/477307-1706993071.png
+237,Matus Begala,125000,Zemplin Michalovce,https://tmssl.akamaized.net//images/wappen/tiny/13744.png?lm=1736440579,https://img.a.transfermarkt.technology/portrait/medium/344310-1581912478.png
+238,Orestis Kalemi,75000,Zemplin Michalovce,https://tmssl.akamaized.net//images/wappen/tiny/13744.png?lm=1736440579,https://img.a.transfermarkt.technology/portrait/medium/default.jpg
+239,Stanislav Danko,50000,Zemplin Michalovce,https://tmssl.akamaized.net//images/wappen/tiny/13744.png?lm=1736440579,https://img.a.transfermarkt.technology/portrait/medium/264800-1706993090.png
+240,Hugo Ahl,375000,Zemplin Michalovce,https://tmssl.akamaized.net//images/wappen/tiny/13744.png?lm=1736440579,https://img.a.transfermarkt.technology/portrait/medium/default.jpg
+241,Samuel Ramos,325000,Zemplin Michalovce,https://tmssl.akamaized.net//images/wappen/tiny/13744.png?lm=1736440579,https://img.a.transfermarkt.technology/portrait/medium/833187-1713621293.png
+242,Kai Brosnan,225000,Zemplin Michalovce,https://tmssl.akamaized.net//images/wappen/tiny/13744.png?lm=1736440579,https://img.a.transfermarkt.technology/portrait/medium/default.jpg
+243,Kido Taylor-Hart,225000,Zemplin Michalovce,https://tmssl.akamaized.net//images/wappen/tiny/13744.png?lm=1736440579,https://img.a.transfermarkt.technology/portrait/medium/default.jpg
+244,Patrik Danek,225000,Zemplin Michalovce,https://tmssl.akamaized.net//images/wappen/tiny/13744.png?lm=1736440579,https://img.a.transfermarkt.technology/portrait/medium/540331-1771001996.JPG
+245,Tomasz Walczak,150000,Zemplin Michalovce,https://tmssl.akamaized.net//images/wappen/tiny/13744.png?lm=1736440579,https://img.a.transfermarkt.technology/portrait/medium/618410-1721900128.png
+246,Luka Lemishko,150000,Zemplin Michalovce,https://tmssl.akamaized.net//images/wappen/tiny/13744.png?lm=1736440579,https://img.a.transfermarkt.technology/portrait/medium/default.jpg
+247,José López,125000,Zemplin Michalovce,https://tmssl.akamaized.net//images/wappen/tiny/13744.png?lm=1736440579,https://img.a.transfermarkt.technology/portrait/medium/649678-1656041084.jpg
+248,Vasilios Theofanopoulos,25000,Zemplin Michalovce,https://tmssl.akamaized.net//images/wappen/tiny/13744.png?lm=1736440579,https://img.a.transfermarkt.technology/portrait/medium/default.jpg
+249,Adrian Knurovsky,75000,1 Fc Tatran Presov,https://tmssl.akamaized.net//images/wappen/tiny/4531.png?lm=1683126749,https://img.a.transfermarkt.technology/portrait/medium/default.jpg
+250,Pavol Bajza,75000,1 Fc Tatran Presov,https://tmssl.akamaized.net//images/wappen/tiny/4531.png?lm=1683126749,https://img.a.transfermarkt.technology/portrait/medium/s_120175_130_2013_09_18_1.jpg
+251,Maksym Kuchynskyi,25000,1 Fc Tatran Presov,https://tmssl.akamaized.net//images/wappen/tiny/4531.png?lm=1683126749,https://img.a.transfermarkt.technology/portrait/medium/269351-1537722420.png
+252,Daniels Balodis,225000,1 Fc Tatran Presov,https://tmssl.akamaized.net//images/wappen/tiny/4531.png?lm=1683126749,https://img.a.transfermarkt.technology/portrait/medium/342151-1726498933.png
+253,Denys Taraduda,175000,1 Fc Tatran Presov,https://tmssl.akamaized.net//images/wappen/tiny/4531.png?lm=1683126749,https://img.a.transfermarkt.technology/portrait/medium/654787-1759085309.jpeg
+254,Jozef Menich,100000,1 Fc Tatran Presov,https://tmssl.akamaized.net//images/wappen/tiny/4531.png?lm=1683126749,https://img.a.transfermarkt.technology/portrait/medium/403512-1584957147.png
+255,Taras Bondarenko,100000,1 Fc Tatran Presov,https://tmssl.akamaized.net//images/wappen/tiny/4531.png?lm=1683126749,https://img.a.transfermarkt.technology/portrait/medium/333024-1713619095.png
+256,Patrik Simko,50000,1 Fc Tatran Presov,https://tmssl.akamaized.net//images/wappen/tiny/4531.png?lm=1683126749,https://img.a.transfermarkt.technology/portrait/medium/132375-1581613402.jpg
+257,Michal Siplak,125000,1 Fc Tatran Presov,https://tmssl.akamaized.net//images/wappen/tiny/4531.png?lm=1683126749,https://img.a.transfermarkt.technology/portrait/medium/239957-1725474029.png
+258,Séverin Tatolna,100000,1 Fc Tatran Presov,https://tmssl.akamaized.net//images/wappen/tiny/4531.png?lm=1683126749,https://img.a.transfermarkt.technology/portrait/medium/958383-1720194754.jpg
+259,Moritz Römling,100000,1 Fc Tatran Presov,https://tmssl.akamaized.net//images/wappen/tiny/4531.png?lm=1683126749,https://img.a.transfermarkt.technology/portrait/medium/452222-1722356549.png
+260,Ioan-Calin Revenco,175000,1 Fc Tatran Presov,https://tmssl.akamaized.net//images/wappen/tiny/4531.png?lm=1683126749,https://img.a.transfermarkt.technology/portrait/medium/405058-1725473974.png
+261,Jurij Medvedev,175000,1 Fc Tatran Presov,https://tmssl.akamaized.net//images/wappen/tiny/4531.png?lm=1683126749,https://img.a.transfermarkt.technology/portrait/medium/289460-1687282147.png
+262,Juraj Kotula,100000,1 Fc Tatran Presov,https://tmssl.akamaized.net//images/wappen/tiny/4531.png?lm=1683126749,https://img.a.transfermarkt.technology/portrait/medium/299587-1746337874.png
+263,Dominique Simon,200000,1 Fc Tatran Presov,https://tmssl.akamaized.net//images/wappen/tiny/4531.png?lm=1683126749,https://img.a.transfermarkt.technology/portrait/medium/988188-1713341554.png
+264,Hélder Morim,125000,1 Fc Tatran Presov,https://tmssl.akamaized.net//images/wappen/tiny/4531.png?lm=1683126749,https://img.a.transfermarkt.technology/portrait/medium/default.jpg
+265,Roman Begala,200000,1 Fc Tatran Presov,https://tmssl.akamaized.net//images/wappen/tiny/4531.png?lm=1683126749,https://img.a.transfermarkt.technology/portrait/medium/474143-1728363710.png
+266,Filip Soucek,175000,1 Fc Tatran Presov,https://tmssl.akamaized.net//images/wappen/tiny/4531.png?lm=1683126749,https://img.a.transfermarkt.technology/portrait/medium/672840-1699719534.png
+267,Kyrylo Sigeev,100000,1 Fc Tatran Presov,https://tmssl.akamaized.net//images/wappen/tiny/4531.png?lm=1683126749,https://img.a.transfermarkt.technology/portrait/medium/935047-1633522497.png
+268,Artur Ukhan,25000,1 Fc Tatran Presov,https://tmssl.akamaized.net//images/wappen/tiny/4531.png?lm=1683126749,https://img.a.transfermarkt.technology/portrait/medium/1138683-1773830452.png
+269,Jan Bernat,200000,1 Fc Tatran Presov,https://tmssl.akamaized.net//images/wappen/tiny/4531.png?lm=1683126749,https://img.a.transfermarkt.technology/portrait/medium/344311-1581488716.png
+270,Martin Regali,200000,1 Fc Tatran Presov,https://tmssl.akamaized.net//images/wappen/tiny/4531.png?lm=1683126749,https://img.a.transfermarkt.technology/portrait/medium/382211-1704365382.jpg
+271,Andy Masaryk,150000,1 Fc Tatran Presov,https://tmssl.akamaized.net//images/wappen/tiny/4531.png?lm=1683126749,https://img.a.transfermarkt.technology/portrait/medium/default.jpg
+272,Gabriel Barbosa,350000,1 Fc Tatran Presov,https://tmssl.akamaized.net//images/wappen/tiny/4531.png?lm=1683126749,https://img.a.transfermarkt.technology/portrait/medium/534024-1504706375.jpg
+273,Stanislav Olejnik,175000,1 Fc Tatran Presov,https://tmssl.akamaized.net//images/wappen/tiny/4531.png?lm=1683126749,https://img.a.transfermarkt.technology/portrait/medium/655731-1581916522.png
+274,Lukasz Wolsztynski,125000,1 Fc Tatran Presov,https://tmssl.akamaized.net//images/wappen/tiny/4531.png?lm=1683126749,https://img.a.transfermarkt.technology/portrait/medium/356515-1726673465.jpeg
+275,Shayon Harrison,125000,1 Fc Tatran Presov,https://tmssl.akamaized.net//images/wappen/tiny/4531.png?lm=1683126749,https://img.a.transfermarkt.technology/portrait/medium/345739-1695119982.png
+276,Landing Sagna,125000,1 Fc Tatran Presov,https://tmssl.akamaized.net//images/wappen/tiny/4531.png?lm=1683126749,https://img.a.transfermarkt.technology/portrait/medium/908677-1698787837.png
+277,Peter Juritka,75000,1 Fc Tatran Presov,https://tmssl.akamaized.net//images/wappen/tiny/4531.png?lm=1683126749,https://img.a.transfermarkt.technology/portrait/medium/705830-1717905632.jpg
+278,David Griger,10000,1 Fc Tatran Presov,https://tmssl.akamaized.net//images/wappen/tiny/4531.png?lm=1683126749,https://img.a.transfermarkt.technology/portrait/medium/default.jpg
+279,Filip Dlubac,125000,Kfc Komarno,https://tmssl.akamaized.net//images/wappen/tiny/32314.png?lm=1549880293,https://img.a.transfermarkt.technology/portrait/medium/default.jpg
+280,Benjamin Szaraz,125000,Kfc Komarno,https://tmssl.akamaized.net//images/wappen/tiny/32314.png?lm=1549880293,https://img.a.transfermarkt.technology/portrait/medium/381487-1706990022.png
+281,Sebastian Jung,100000,Kfc Komarno,https://tmssl.akamaized.net//images/wappen/tiny/32314.png?lm=1549880293,https://img.a.transfermarkt.technology/portrait/medium/749749-1752217713.jpg
+282,Erik Gyurákovics,75000,Kfc Komarno,https://tmssl.akamaized.net//images/wappen/tiny/32314.png?lm=1549880293,https://img.a.transfermarkt.technology/portrait/medium/476088-1742565087.jpg
+283,Martin Simko,175000,Kfc Komarno,https://tmssl.akamaized.net//images/wappen/tiny/32314.png?lm=1549880293,https://img.a.transfermarkt.technology/portrait/medium/default.jpg
+284,Dominik Spiriak,175000,Kfc Komarno,https://tmssl.akamaized.net//images/wappen/tiny/32314.png?lm=1549880293,https://img.a.transfermarkt.technology/portrait/medium/406653-1614151055.png
+285,Ondrej Rudzan,150000,Kfc Komarno,https://tmssl.akamaized.net//images/wappen/tiny/32314.png?lm=1549880293,https://img.a.transfermarkt.technology/portrait/medium/438566-1710310045.png
+286,Robert Pillar,100000,Kfc Komarno,https://tmssl.akamaized.net//images/wappen/tiny/32314.png?lm=1549880293,https://img.a.transfermarkt.technology/portrait/medium/149431-1612795391.png
+287,Simon Smehyl,150000,Kfc Komarno,https://tmssl.akamaized.net//images/wappen/tiny/32314.png?lm=1549880293,https://img.a.transfermarkt.technology/portrait/medium/250823-1583767564.png
+288,Adam Krcik,125000,Kfc Komarno,https://tmssl.akamaized.net//images/wappen/tiny/32314.png?lm=1549880293,https://img.a.transfermarkt.technology/portrait/medium/default.jpg
+289,Filip Kiss,100000,Kfc Komarno,https://tmssl.akamaized.net//images/wappen/tiny/32314.png?lm=1549880293,https://img.a.transfermarkt.technology/portrait/medium/s_90360_603_2013_04_17_1.jpg
+290,David Kmeto,25000,Kfc Komarno,https://tmssl.akamaized.net//images/wappen/tiny/32314.png?lm=1549880293,https://img.a.transfermarkt.technology/portrait/medium/default.jpg
+291,Alen Mustafic,225000,Kfc Komarno,https://tmssl.akamaized.net//images/wappen/tiny/32314.png?lm=1549880293,https://img.a.transfermarkt.technology/portrait/medium/368631-1581331984.png
+292,Dominik Zak,225000,Kfc Komarno,https://tmssl.akamaized.net//images/wappen/tiny/32314.png?lm=1549880293,https://img.a.transfermarkt.technology/portrait/medium/665544-1703614647.png
+293,Dan Ozvolda,125000,Kfc Komarno,https://tmssl.akamaized.net//images/wappen/tiny/32314.png?lm=1549880293,https://img.a.transfermarkt.technology/portrait/medium/default.jpg
+294,Martin Gambos,125000,Kfc Komarno,https://tmssl.akamaized.net//images/wappen/tiny/32314.png?lm=1549880293,https://img.a.transfermarkt.technology/portrait/medium/334924-1725370991.png
+295,Jozef Pastorek,75000,Kfc Komarno,https://tmssl.akamaized.net//images/wappen/tiny/32314.png?lm=1549880293,https://img.a.transfermarkt.technology/portrait/medium/default.jpg
+296,Ganbold Ganbayar,175000,Kfc Komarno,https://tmssl.akamaized.net//images/wappen/tiny/32314.png?lm=1549880293,https://img.a.transfermarkt.technology/portrait/medium/522628-1611948716.jpg
+297,Kristof Domonkos,150000,Kfc Komarno,https://tmssl.akamaized.net//images/wappen/tiny/32314.png?lm=1549880293,https://img.a.transfermarkt.technology/portrait/medium/default.jpg
+298,Patrik Szűcs,100000,Kfc Komarno,https://tmssl.akamaized.net//images/wappen/tiny/32314.png?lm=1549880293,https://img.a.transfermarkt.technology/portrait/medium/default.jpg
+299,Christian Bayemi,150000,Kfc Komarno,https://tmssl.akamaized.net//images/wappen/tiny/32314.png?lm=1549880293,https://img.a.transfermarkt.technology/portrait/medium/default.jpg
+300,Boris Druga,150000,Kfc Komarno,https://tmssl.akamaized.net//images/wappen/tiny/32314.png?lm=1549880293,https://img.a.transfermarkt.technology/portrait/medium/default.jpg
+301,Martin Misovic,50000,Kfc Komarno,https://tmssl.akamaized.net//images/wappen/tiny/32314.png?lm=1549880293,https://img.a.transfermarkt.technology/portrait/medium/641660-1581656061.png
+302,Jakub Palan,50000,Kfc Komarno,https://tmssl.akamaized.net//images/wappen/tiny/32314.png?lm=1549880293,https://img.a.transfermarkt.technology/portrait/medium/1171485-1768664630.jpg
+303,Zyen Jones,175000,Kfc Komarno,https://tmssl.akamaized.net//images/wappen/tiny/32314.png?lm=1549880293,https://img.a.transfermarkt.technology/portrait/medium/562380-1561141450.jpg
+304,Nandor Tamas,150000,Kfc Komarno,https://tmssl.akamaized.net//images/wappen/tiny/32314.png?lm=1549880293,https://img.a.transfermarkt.technology/portrait/medium/535468-1572157917.jpg
+305,Elvis Mashike,150000,Kfc Komarno,https://tmssl.akamaized.net//images/wappen/tiny/32314.png?lm=1549880293,https://img.a.transfermarkt.technology/portrait/medium/330275-1736701558.jpg
+306,Zoran Ivanics,25000,Kfc Komarno,https://tmssl.akamaized.net//images/wappen/tiny/32314.png?lm=1549880293,https://img.a.transfermarkt.technology/portrait/medium/default.jpg
+307,Martin Junas,175000,Mfk Skalica,https://tmssl.akamaized.net//images/wappen/tiny/35488.png?lm=1720091624,https://img.a.transfermarkt.technology/portrait/medium/186381-1526589819.JPG
+308,Erik Riska,25000,Mfk Skalica,https://tmssl.akamaized.net//images/wappen/tiny/35488.png?lm=1720091624,https://img.a.transfermarkt.technology/portrait/medium/default.jpg
+309,Marek Ujlaky,275000,Mfk Skalica,https://tmssl.akamaized.net//images/wappen/tiny/35488.png?lm=1720091624,https://img.a.transfermarkt.technology/portrait/medium/736922-1584959068.png
+310,Mario Suver,200000,Mfk Skalica,https://tmssl.akamaized.net//images/wappen/tiny/35488.png?lm=1720091624,https://img.a.transfermarkt.technology/portrait/medium/388047-1768886675.jpg
+311,Branislav Ninaj,150000,Mfk Skalica,https://tmssl.akamaized.net//images/wappen/tiny/35488.png?lm=1720091624,https://img.a.transfermarkt.technology/portrait/medium/260979-1693836269.png
+312,Oliver Podhorin,100000,Mfk Skalica,https://tmssl.akamaized.net//images/wappen/tiny/35488.png?lm=1720091624,https://img.a.transfermarkt.technology/portrait/medium/382207-1581566770.png
+313,Michal Ranko,75000,Mfk Skalica,https://tmssl.akamaized.net//images/wappen/tiny/35488.png?lm=1720091624,https://img.a.transfermarkt.technology/portrait/medium/default.jpg
+314,Maurizio Macorig,50000,Mfk Skalica,https://tmssl.akamaized.net//images/wappen/tiny/35488.png?lm=1720091624,https://img.a.transfermarkt.technology/portrait/medium/282118-1600578447.PNG
+315,Peter Guinari,50000,Mfk Skalica,https://tmssl.akamaized.net//images/wappen/tiny/35488.png?lm=1720091624,https://img.a.transfermarkt.technology/portrait/medium/512965-1561570436.jpg
+316,Adam Gazi,200000,Mfk Skalica,https://tmssl.akamaized.net//images/wappen/tiny/35488.png?lm=1720091624,https://img.a.transfermarkt.technology/portrait/medium/720769-1581658837.png
+317,Martin Cernek,100000,Mfk Skalica,https://tmssl.akamaized.net//images/wappen/tiny/35488.png?lm=1720091624,https://img.a.transfermarkt.technology/portrait/medium/default.jpg
+318,Samuel Sula,150000,Mfk Skalica,https://tmssl.akamaized.net//images/wappen/tiny/35488.png?lm=1720091624,https://img.a.transfermarkt.technology/portrait/medium/497544-1735073556.png
+319,Lukas Simko,125000,Mfk Skalica,https://tmssl.akamaized.net//images/wappen/tiny/35488.png?lm=1720091624,https://img.a.transfermarkt.technology/portrait/medium/549933-1706992902.png
+320,Lukas Fabis,125000,Mfk Skalica,https://tmssl.akamaized.net//images/wappen/tiny/35488.png?lm=1720091624,https://img.a.transfermarkt.technology/portrait/medium/465016-1581566898.png
+321,Damian Baris,125000,Mfk Skalica,https://tmssl.akamaized.net//images/wappen/tiny/35488.png?lm=1720091624,https://img.a.transfermarkt.technology/portrait/medium/278861-1713619392.png
+322,Adam Ravas,75000,Mfk Skalica,https://tmssl.akamaized.net//images/wappen/tiny/35488.png?lm=1720091624,https://img.a.transfermarkt.technology/portrait/medium/default.jpg
+323,Martin Nagy,50000,Mfk Skalica,https://tmssl.akamaized.net//images/wappen/tiny/35488.png?lm=1720091624,https://img.a.transfermarkt.technology/portrait/medium/92182-1501446921.jpg
+324,Petr Pudhorocky,200000,Mfk Skalica,https://tmssl.akamaized.net//images/wappen/tiny/35488.png?lm=1720091624,https://img.a.transfermarkt.technology/portrait/medium/default.jpg
+325,Martin Masik,150000,Mfk Skalica,https://tmssl.akamaized.net//images/wappen/tiny/35488.png?lm=1720091624,https://img.a.transfermarkt.technology/portrait/medium/default.jpg
+326,Mario Holly,125000,Mfk Skalica,https://tmssl.akamaized.net//images/wappen/tiny/35488.png?lm=1720091624,https://img.a.transfermarkt.technology/portrait/medium/default.jpg
+327,Tomas Smejkal,150000,Mfk Skalica,https://tmssl.akamaized.net//images/wappen/tiny/35488.png?lm=1720091624,https://img.a.transfermarkt.technology/portrait/medium/550518-1614144622.png
+328,Lukas Leginus,125000,Mfk Skalica,https://tmssl.akamaized.net//images/wappen/tiny/35488.png?lm=1720091624,https://img.a.transfermarkt.technology/portrait/medium/default.jpg
+329,Abbati Abdullahi,100000,Mfk Skalica,https://tmssl.akamaized.net//images/wappen/tiny/35488.png?lm=1720091624,https://img.a.transfermarkt.technology/portrait/medium/1368324-1737574788.png
+330,Erik Daniel,100000,Mfk Skalica,https://tmssl.akamaized.net//images/wappen/tiny/35488.png?lm=1720091624,https://img.a.transfermarkt.technology/portrait/medium/251916-1581331926.png
+331,Adam Morong,100000,Mfk Skalica,https://tmssl.akamaized.net//images/wappen/tiny/35488.png?lm=1720091624,https://img.a.transfermarkt.technology/portrait/medium/216862-1615651125.JPG
+332,Roman Potocny,75000,Mfk Skalica,https://tmssl.akamaized.net//images/wappen/tiny/35488.png?lm=1720091624,https://img.a.transfermarkt.technology/portrait/medium/179240-1706470566.png
+333,Philip Onyedika,25000,Mfk Skalica,https://tmssl.akamaized.net//images/wappen/tiny/35488.png?lm=1720091624,https://img.a.transfermarkt.technology/portrait/medium/default.jpg

@@ -63,6 +63,8 @@ h1, h2, h3 {
     font-size: 0.8rem;
     color: #8b949e;
     margin-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
 }
 
 .result-correct {
@@ -127,7 +129,7 @@ def load_data():
     #return df.reset_index(drop=True)
 
     conn = sqlite3.connect("nike_liga.db")
-    df = pd.read_sql("SELECT name AS Player, value AS Value FROM players", conn)
+    df = pd.read_sql("SELECT name AS Player, value AS Value, club AS Club, logo_url AS Logo, player_img_url AS PlayerImg FROM players", conn)
     conn.close()
     df["Value"] = pd.to_numeric(df["Value"], errors="coerce")
     df = df.dropna(subset=["Value"])
@@ -227,7 +229,27 @@ if st.session_state.game_over:
 
 # ── Header ─────────────────────────────────────────────────────────────────────
 st.markdown("<h1 style='text-align:center;font-size:3rem;margin-bottom:0'>⚽ GUESS MY VALUE</h1>", unsafe_allow_html=True)
-st.markdown("<p style='text-align:center;color:#8b949e;margin-top:0'>Niké Liga · Season 2025/26</p>", unsafe_allow_html=True)
+st.markdown("""
+<div style='text-align:center;margin:4px 0 20px 0'>
+    <svg viewBox="0 0 300 80" width="220" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+            <linearGradient id="og" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" style="stop-color:#f97316"/>
+                <stop offset="100%" style="stop-color:#ea580c"/>
+            </linearGradient>
+        </defs>
+        <text x="150" y="38" text-anchor="middle"
+              font-family="Georgia, serif" font-style="italic" font-weight="700"
+              font-size="36" fill="#ffffff" letter-spacing="-1">niké</text>
+        <text x="150" y="72" text-anchor="middle"
+              font-family="Arial Rounded MT Bold, Nunito, Varela Round, sans-serif"
+              font-style="italic" font-weight="900"
+              font-size="38" fill="url(#og)" letter-spacing="4"
+              stroke="url(#og)" stroke-width="0.5" stroke-linejoin="round">LIGA</text>
+    </svg>
+    <div style='font-size:0.72rem;color:#8b949e;letter-spacing:3px;margin-top:-4px'>SEASON 2025/26</div>
+</div>
+""", unsafe_allow_html=True)
 
 # Score bar
 i0, i1 = st.session_state.indices
@@ -239,13 +261,22 @@ st.markdown(f"""
 </div>
 """, unsafe_allow_html=True)
 
-# ── Player A card (known value) ────────────────────────────────────────────────
+# ── Player A card (known value)
 row_a = df.loc[i0]
 st.markdown(f"""
-<div class='card'>
-    <div class='badge'>{'Club: ' + row_a['Club'] if 'Club' in df.columns else 'Niké Liga'}</div>
-    <div class='player-name'>{row_a['Player']}</div>
-    <div class='player-value'>{fmt_value(row_a['Value'])}</div>
+<div class="card" style="display:flex;align-items:center;justify-content:space-between;gap:16px">
+    <div>
+        <div style="display:flex;align-items:center;gap:8px;margin-bottom:8px">
+            <img src="{row_a["Logo"]}" width="28" height="28" style="object-fit:contain" onerror="this.style.display='none'">
+            <span class="badge" style="margin-bottom:0">{row_a["Club"]}</span>
+        </div>
+        <div class="player-name">{row_a["Player"]}</div>
+        <div style="font-size:0.85rem;color:#8b949e;margin-bottom:4px">MARKET VALUE</div>
+        <div class="player-value">{fmt_value(row_a["Value"])}</div>
+    </div>
+    <img src="{row_a["PlayerImg"]}" width="100" height="120"
+     style="border-radius:10px;object-fit:contain;object-position:center;opacity:0.5;flex-shrink:0;background:#21262d"
+     onerror="this.style.display='none'">
 </div>
 """, unsafe_allow_html=True)
 
@@ -254,16 +285,39 @@ st.markdown("<div style='text-align:center;font-size:1.4rem;color:#8b949e;margin
 # ── Player B card (hidden value) ───────────────────────────────────────────────
 row_b = df.loc[i1]
 revealed = st.session_state.answered
-b_value_display = fmt_value(row_b['Value']) if revealed else "???"
+b_value_display = fmt_value(row_b['Value']) if revealed else "? ? ?"
 b_value_class = "player-value" if revealed else "player-value-hidden"
 
 st.markdown(f"""
-<div class='card'>
-    <div class='badge'>{'Club: ' + row_b['Club'] if 'Club' in df.columns else 'Niké Liga'}</div>
-    <div class='player-name'>{row_b['Player']}</div>
-    <div class='{b_value_class}'>{b_value_display}</div>
+<div class="card" style="display:flex;align-items:center;justify-content:space-between;gap:16px">
+    <div>
+        <div style="display:flex;align-items:center;gap:8px;margin-bottom:8px">
+            <img src="{row_b["Logo"]}" width="28" height="28" style="object-fit:contain" onerror="this.style.display='none'">
+            <span class="badge" style="margin-bottom:0">{row_b["Club"]}</span>
+        </div>
+        <div class="player-name">{row_b["Player"]}</div>
+        <div style="font-size:0.85rem;color:#8b949e;margin-bottom:4px">MARKET VALUE</div>
+        <div class="{b_value_class}">{b_value_display}</div>
+    </div>
+    <img src="{row_b["PlayerImg"]}" width="100" height="120"
+         style="border-radius:10px;object-fit:cover;object-position:center;opacity:0.5;flex-shrink:0;background:#21262d"
+         onerror="this.style.display='none'">
 </div>
 """, unsafe_allow_html=True)
+
+
+# ── HIGHER / LOWER tlačidlá priamo pod Player B kartičkou ─────────────────────
+if not st.session_state.answered:
+    col1, col2 = st.columns(2)
+    with col1:
+        if st.button("📈 HIGHER", key="higher", use_container_width=True):
+            handle_guess("higher")
+            st.rerun()
+    with col2:
+        if st.button("📉 LOWER", key="lower", use_container_width=True):
+            handle_guess("lower")
+            st.rerun()
+
 
 # ── Result message ─────────────────────────────────────────────────────────────
 if st.session_state.answered:
@@ -277,18 +331,18 @@ if st.session_state.answered:
         next_round()
         st.rerun()
 
-# ── Guess buttons ──────────────────────────────────────────────────────────────
-else:
-    st.markdown(f"<p style='text-align:center;color:#8b949e;margin:16px 0 8px'>Is <strong style='color:#fff'>{row_b['Player']}</strong>'s value HIGHER or LOWER than {fmt_value(row_a['Value'])}?</p>", unsafe_allow_html=True)
-    col1, col2 = st.columns(2)
-    with col1:
-        if st.button("📈 HIGHER", key="higher"):
-            handle_guess("higher")
-            st.rerun()
-    with col2:
-        if st.button("📉 LOWER", key="lower"):
-            handle_guess("lower")
-            st.rerun()
+# # ── Guess buttons ──────────────────────────────────────────────────────────────
+# else:
+#     st.markdown(f"<p style='text-align:center;color:#8b949e;margin:16px 0 8px'>Is <strong style='color:#fff'>{row_b['Player']}</strong>'s value HIGHER or LOWER than {fmt_value(row_a['Value'])}?</p>", unsafe_allow_html=True)
+#     col1, col2 = st.columns(2)
+#     with col1:
+#         if st.button("📈 HIGHER", key="higher"):
+#             handle_guess("higher")
+#             st.rerun()
+#     with col2:
+#         if st.button("📉 LOWER", key="lower"):
+#             handle_guess("lower")
+#             st.rerun()
 
 # ── Sidebar: progress ──────────────────────────────────────────────────────────
 with st.sidebar:
