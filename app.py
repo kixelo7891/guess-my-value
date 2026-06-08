@@ -176,6 +176,44 @@ def get_unique_nickname(base: str) -> str:
         counter += 1
     return f"{base}#{counter}"
 
+
+# def get_client_ip():
+#     try:
+#         # Streamlit Cloud headers
+#         headers = st.context.headers
+#         ip = (headers.get("X-Forwarded-For", "") or
+#               headers.get("X-Real-Ip", "") or
+#               "unknown")
+#         return ip.split(",")[0].strip()
+#     except:
+#         return "unknown"
+#
+#
+# def ip_already_submitted(ip: str) -> bool:
+#     supabase = get_supabase()
+#     result = supabase.table("leaderboard") \
+#         .select("id") \
+#         .eq("ip_address", ip) \
+#         .execute()
+#     return len(result.data) > 0
+#
+# def save_score(nickname: str, score: int, accuracy: int):
+#     supabase = get_supabase()
+#     ip = get_client_ip()
+#
+#     if ip != "unknown" and ip_already_submitted(ip):
+#         return None, "already_submitted"
+#
+#     unique_nick = get_unique_nickname(nickname.strip())
+#     supabase.table("leaderboard").insert({
+#         "nickname": unique_nick,
+#         "score": score,
+#         "accuracy": accuracy,
+#         "ip_address": ip
+#     }).execute()
+#     return unique_nick, "ok"
+
+
 def save_score(nickname: str, score: int, accuracy: int):
     supabase = get_supabase()
     unique_nick = get_unique_nickname(nickname.strip())
@@ -186,13 +224,23 @@ def save_score(nickname: str, score: int, accuracy: int):
     }).execute()
     return unique_nick
 
+# def get_leaderboard():
+#     supabase = get_supabase()
+#     result = supabase.table("leaderboard")\
+#         .select("nickname, score, accuracy, played_at")\
+#         .order("score", desc=True)\
+#         .order("accuracy", desc=True)\
+#         .limit(10)\
+#         .execute()
+#     return result.data
+
 def get_leaderboard():
     supabase = get_supabase()
     result = supabase.table("leaderboard")\
         .select("nickname, score, accuracy, played_at")\
         .order("score", desc=True)\
         .order("accuracy", desc=True)\
-        .limit(10)\
+        .limit(100)\
         .execute()
     return result.data
 
@@ -266,7 +314,6 @@ def next_round():
         pick_new_pair()
 
 # ── Game over screen ───────────────────────────────────────────────────────────
-# ── Game over screen ───────────────────────────────────────────────────────────
 if st.session_state.game_over:
     score = st.session_state.score
     pct = score * 10
@@ -298,9 +345,9 @@ if st.session_state.game_over:
 
     # ── Nickname input ─────────────────────────────────────────────────────────
     if not st.session_state.get("score_saved", False):
-        st.markdown("<h3 style='text-align:center'>🏅 Ulož svoje skóre</h3>", unsafe_allow_html=True)
-        nickname = st.text_input("Zadaj prezývku:", max_chars=20, placeholder="napr. SlovanFan99")
-        if st.button("💾 Uložiť skóre", use_container_width=True):
+        st.markdown("<h3 style='text-align:center'>🏅 Save your score</h3>", unsafe_allow_html=True)
+        nickname = st.text_input("Enter your nickname:", max_chars=20, placeholder="napr. SlovenskyFan99")
+        if st.button("💾 Save your score", use_container_width=True):
             if nickname.strip():
                 valid, error_msg = is_valid_nickname(nickname)
                 if valid:
@@ -312,38 +359,68 @@ if st.session_state.game_over:
                 else:
                     st.error(error_msg)
             else:
-                st.error("Zadaj prezývku.")
+                st.error("Enter your nickname.")
     else:
-        st.success(f"✅ Skóre uložené ako **{st.session_state.saved_nickname}**!")
+        st.success(f"✅ Score has been saved as **{st.session_state.saved_nickname}**!")
 
     st.markdown("<br>", unsafe_allow_html=True)
 
-    # ── Leaderboard ────────────────────────────────────────────────────────────
-    st.markdown("<h3 style='text-align:center'>🏆 Top 10 Leaderboard</h3>", unsafe_allow_html=True)
-    leaders = get_leaderboard()
-    if leaders:
-        for i, entry in enumerate(leaders):
-            medal = ["🥇", "🥈", "🥉"][i] if i < 3 else f"{i+1}."
-            is_me = entry["nickname"] == st.session_state.get("saved_nickname", "")
-            bg = "#0d2818" if is_me else "#161b22"
-            border = "#3fb950" if is_me else "#30363d"
-            st.markdown(f"""
-            <div style='background:{bg};border:1px solid {border};border-radius:8px;
-                        padding:10px 16px;margin-bottom:6px;
-                        display:flex;justify-content:space-between;align-items:center'>
-                <span>{medal} <strong style='color:#fff'>{entry["nickname"]}</strong></span>
-                <span style='color:#3fb950;font-weight:600'>{entry["score"]}/10</span>
-                <span style='color:#8b949e'>{entry["accuracy"]}%</span>
-            </div>
-            """, unsafe_allow_html=True)
-    else:
-        st.markdown("<p style='text-align:center;color:#8b949e'>Zatiaľ žiadne skóre.</p>", unsafe_allow_html=True)
+    # ── Leaderboard ──
+    tab_game, tab_leaderboard = st.tabs(["⚽ Game", "🏆 Leaderboard"])
 
-    st.markdown("<br>", unsafe_allow_html=True)
-    if st.button("🔄 Hrať znova", use_container_width=True):
-        init_state()
-        st.rerun()
-    st.stop()
+    with tab_leaderboard:
+        st.markdown("### 🏆 Top 10 — Niké Liga")
+        leaders = get_leaderboard()
+        if leaders:
+            for i, entry in enumerate(leaders):
+                medal = ["🥇", "🥈", "🥉"][i] if i < 3 else f"{i + 1}."
+                st.markdown(f"""
+                <div style='background:#161b22;border:1px solid #30363d;border-radius:8px;
+                            padding:10px 16px;margin-bottom:6px;
+                            display:flex;justify-content:space-between'>
+                    <span>{medal} <strong style='color:#fff'>{entry["nickname"]}</strong></span>
+                    <span style='color:#3fb950'>{entry["score"]}/10</span>
+                    <span style='color:#8b949e'>{entry["accuracy"]}%</span>
+                    <span style='color:#8b949e;font-size:0.8rem'>{entry["played_at"][:10]}</span>
+                </div>
+                """, unsafe_allow_html=True)
+        else:
+            st.info("No score yet.")
+
+        st.markdown("<br>", unsafe_allow_html=True)
+        if st.button("🔄 Play again", use_container_width=True):
+            init_state()
+            st.rerun()
+        st.stop()
+
+
+
+    # st.markdown("<h3 style='text-align:center'>🏆 Top 10 Leaderboard</h3>", unsafe_allow_html=True)
+    #
+    # leaders = get_leaderboard()
+    # if leaders:
+    #     for i, entry in enumerate(leaders):
+    #         medal = ["🥇", "🥈", "🥉"][i] if i < 3 else f"{i+1}."
+    #         is_me = entry["nickname"] == st.session_state.get("saved_nickname", "")
+    #         bg = "#0d2818" if is_me else "#161b22"
+    #         border = "#3fb950" if is_me else "#30363d"
+    #         st.markdown(f"""
+    #         <div style='background:{bg};border:1px solid {border};border-radius:8px;
+    #                     padding:10px 16px;margin-bottom:6px;
+    #                     display:flex;justify-content:space-between;align-items:center'>
+    #             <span>{medal} <strong style='color:#fff'>{entry["nickname"]}</strong></span>
+    #             <span style='color:#3fb950;font-weight:600'>{entry["score"]}/10</span>
+    #             <span style='color:#8b949e'>{entry["accuracy"]}%</span>
+    #         </div>
+    #         """, unsafe_allow_html=True)
+    # else:
+    #     st.markdown("<p style='text-align:center;color:#8b949e'>No score yet.</p>", unsafe_allow_html=True)
+    #
+    # st.markdown("<br>", unsafe_allow_html=True)
+    # if st.button("🔄 Play again", use_container_width=True):
+    #     init_state()
+    #     st.rerun()
+    # st.stop()
 
 # ── Header ─────────────────────────────────────────────────────────────────────
 st.markdown("<h1 style='text-align:center;font-size:3rem;margin-bottom:0'>⚽ GUESS MY VALUE</h1>", unsafe_allow_html=True)
@@ -449,19 +526,87 @@ if st.session_state.answered:
         next_round()
         st.rerun()
 
-# ── Sidebar: progress ──────────────────────────────────────────────────────────
+# ── Sidebar: progress ──
 with st.sidebar:
     st.markdown("### 📊 Your progress")
     st.progress(st.session_state.score / MAX_ROUNDS)
     st.metric("Correct", st.session_state.score)
-    st.metric("Accuracy", f"{int(st.session_state.score / st.session_state.round * 100)}%" if st.session_state.round > 0 else "—")
+    st.metric("Accuracy", f"{int(st.session_state.score / st.session_state.round * 100)}%"
+    if st.session_state.round > 0 else "—")
+
     st.markdown("---")
+
+    # ==================== LEADERBOARD ====================
+    st.markdown("### 🏆 Leaderboard")
+
+    leaders = get_leaderboard()
+
+    if leaders:
+        # Top 5 Compact
+        for i, entry in enumerate(leaders[:5]):
+            medal = ["🥇", "🥈", "🥉"][i] if i < 3 else f"{i + 1}."
+            is_me = entry["nickname"] == st.session_state.get("saved_nickname", "")
+
+            st.markdown(f"""
+            <div style='background:{"#0d2818" if is_me else "#161b22"}; 
+                        border:1px solid {"#3fb950" if is_me else "#30363d"};
+                        border-radius:8px; padding:10px 12px; margin-bottom:6px;
+                        display:flex; justify-content:space-between; align-items:center;'>
+                <span>{medal} <strong>{entry["nickname"]}</strong></span>
+                <span style='color:#3fb950; font-weight:600'>{entry["score"]}/10</span>
+            </div>
+            """, unsafe_allow_html=True)
+
+        # Full Leaderboard in Expander
+        with st.expander("📋 View full leaderboard", expanded=False):
+            for i, entry in enumerate(leaders):
+                medal = ["🥇", "🥈", "🥉"][i] if i < 3 else f"{i + 1}."
+                is_me = entry["nickname"] == st.session_state.get("saved_nickname", "")
+
+                st.markdown(f"""
+                <div style='background:{"#0d2818" if is_me else "#161b22"}; 
+                            border:1px solid {"#3fb950" if is_me else "#30363d"};
+                            border-radius:8px; padding:10px 14px; margin-bottom:6px;
+                            display:flex; justify-content:space-between; align-items:center;'>
+                    <span>{medal} <strong>{entry["nickname"]}</strong></span>
+                    <span style='color:#3fb950; font-weight:600'>{entry["score"]}/10</span>
+                    <span style='color:#8b949e'>{entry["accuracy"]}%</span>
+                </div>
+                """, unsafe_allow_html=True)
+    else:
+        st.info("No scores yet — be the first!")
+
+    st.markdown("---")
+
     views = st.session_state.get("visit_count", 0)
     st.metric("👁️ Total visits", f"{views:,}")
+
     st.markdown("---")
-    if st.button("🔄 Restart game"):
+    if st.button("🔄 Restart game", use_container_width=True):
         init_state()
         st.rerun()
+
     st.markdown("---")
     st.markdown("**How to play**")
-    st.markdown("You'll see two Niké Liga players. Guess whether the second player's market value is higher or lower than the first. 10 rounds, aim for a high score!")
+    st.markdown("""
+    You'll see two Niké Liga players.  
+    Guess whether the second player's market value is **higher** or **lower** than the first.  
+    10 rounds — aim for a high score!
+    """)
+
+
+# with st.sidebar:
+#     st.markdown("### 📊 Your progress")
+#     st.progress(st.session_state.score / MAX_ROUNDS)
+#     st.metric("Correct", st.session_state.score)
+#     st.metric("Accuracy", f"{int(st.session_state.score / st.session_state.round * 100)}%" if st.session_state.round > 0 else "—")
+#     st.markdown("---")
+#     views = st.session_state.get("visit_count", 0)
+#     st.metric("👁️ Total visits", f"{views:,}")
+#     st.markdown("---")
+#     if st.button("🔄 Restart game"):
+#         init_state()
+#         st.rerun()
+#     st.markdown("---")
+#     st.markdown("**How to play**")
+#     st.markdown("You'll see two Niké Liga players. Guess whether the second player's market value is higher or lower than the first. 10 rounds, aim for a high score!")
