@@ -2,6 +2,9 @@ import streamlit as st
 import pandas as pd
 import random
 import sqlite3
+from supabase import create_client
+import uuid
+import re
 
 # ── Page config ────────────────────────────────────────────────────────────────
 st.set_page_config(
@@ -115,19 +118,87 @@ div[data-testid="stButton"] button:hover {
 </style>
 """, unsafe_allow_html=True)
 
+@st.cache_resource
+def get_supabase():
+    return create_client(st.secrets["SUPABASE_URL"], st.secrets["SUPABASE_KEY"])
+
+def track_visit():
+    if "visited" not in st.session_state:
+        st.session_state.visited = True
+        st.session_state.session_id = str(uuid.uuid4())
+        try:
+            supabase = get_supabase()
+            # Insert s unikátnym session_id
+            supabase.table("page_views").insert({
+                "session_id": st.session_state.session_id
+            }).execute()
+            # Počítaj všetky riadky a vydel 2
+            result = supabase.table("page_views").select("*", count="exact").execute()
+            st.session_state.visit_count = result.count // 2
+        except Exception as e:
+            st.session_state.visit_count = 0
+            print(f"Supabase error: {e}")
+
+track_visit()  # ← toto musí byť zavolané
+
+BANNED_WORDS = [
+    "kurva", "piča", "jebat", "hovno", "kokot", "debil",
+    "cunt", "fuck", "shit", "ass", "retard", "pičovina",
+    "čurák", "kunda", "penis", "mušľa", "mušlička", "chuj",
+    "jebať", "prijebaný", "prijebaná", "jebavý", "jebavá",
+    "pičuš"
+]
+
+def is_valid_nickname(nickname: str) -> tuple:
+    nick = nickname.strip()
+    if len(nick) < 2:
+        return False, "Prezývka musí mať aspoň 2 znaky."
+    if len(nick) > 20:
+        return False, "Prezývka môže mať max 20 znakov."
+    if not re.match(r'^[\w\s\-\.]+$', nick):
+        return False, "Len písmená, čísla, - _ ."
+    for word in BANNED_WORDS:
+        if word in nick.lower():
+            return False, "Prezývka obsahuje nevhodné slovo."
+    return True, ""
+
+def get_unique_nickname(base: str) -> str:
+    supabase = get_supabase()
+    result = supabase.table("leaderboard")\
+        .select("nickname")\
+        .like("nickname", f"{base}%")\
+        .execute()
+    existing = [r["nickname"] for r in result.data]
+    if base not in existing:
+        return base
+    counter = 2
+    while f"{base}#{counter}" in existing:
+        counter += 1
+    return f"{base}#{counter}"
+
+def save_score(nickname: str, score: int, accuracy: int):
+    supabase = get_supabase()
+    unique_nick = get_unique_nickname(nickname.strip())
+    supabase.table("leaderboard").insert({
+        "nickname": unique_nick,
+        "score": score,
+        "accuracy": accuracy
+    }).execute()
+    return unique_nick
+
+def get_leaderboard():
+    supabase = get_supabase()
+    result = supabase.table("leaderboard")\
+        .select("nickname, score, accuracy, played_at")\
+        .order("score", desc=True)\
+        .order("accuracy", desc=True)\
+        .limit(10)\
+        .execute()
+    return result.data
+
 # ── Load data ──────────────────────────────────────────────────────────────────
 @st.cache_data
 def load_data():
-    #df = pd.read_csv("nike_liga_data.csv")
-    # Support both column naming conventions
-    #df.columns = [c.strip() for c in df.columns]
-    #if "Players" in df.columns:
-    #    df = df.rename(columns={"Players": "Player", "Values": "Value"})
-    #df["Value"] = pd.to_numeric(df["Value"], errors="coerce")
-    #df = df.dropna(subset=["Value"])
-    #df["Value"] = df["Value"].astype(int)
-    #return df.reset_index(drop=True)
-
     conn = sqlite3.connect("nike_liga.db")
     df = pd.read_sql("SELECT name AS Player, value AS Value, club AS Club, logo_url AS Logo, player_img_url AS PlayerImg FROM players", conn)
     conn.close()
@@ -147,6 +218,8 @@ def init_state():
     st.session_state.answered = False
     st.session_state.last_correct = None
     st.session_state.game_over = False
+    st.session_state.score_saved = False      # ← pridaj
+    st.session_state.saved_nickname = ""      # ← pridaj
     for _ in range(100):
         i0, i1 = random.sample(range(len(df)), 2)
         if df.loc[i0, "Value"] != df.loc[i1, "Value"]:
@@ -193,6 +266,7 @@ def next_round():
         pick_new_pair()
 
 # ── Game over screen ───────────────────────────────────────────────────────────
+# ── Game over screen ───────────────────────────────────────────────────────────
 if st.session_state.game_over:
     score = st.session_state.score
     pct = score * 10
@@ -217,12 +291,56 @@ if st.session_state.game_over:
     </div>
     """, unsafe_allow_html=True)
 
-    # Score bar visual
     filled = "🟩" * score + "🟥" * (MAX_ROUNDS - score)
     st.markdown(f"<div style='text-align:center;font-size:1.5rem;letter-spacing:4px'>{filled}</div>", unsafe_allow_html=True)
 
     st.markdown("<br>", unsafe_allow_html=True)
-    if st.button("🔄 Play again"):
+
+    # ── Nickname input ─────────────────────────────────────────────────────────
+    if not st.session_state.get("score_saved", False):
+        st.markdown("<h3 style='text-align:center'>🏅 Ulož svoje skóre</h3>", unsafe_allow_html=True)
+        nickname = st.text_input("Zadaj prezývku:", max_chars=20, placeholder="napr. SlovanFan99")
+        if st.button("💾 Uložiť skóre", use_container_width=True):
+            if nickname.strip():
+                valid, error_msg = is_valid_nickname(nickname)
+                if valid:
+                    accuracy = int(score / MAX_ROUNDS * 100)
+                    saved_nick = save_score(nickname, score, accuracy)
+                    st.session_state.score_saved = True
+                    st.session_state.saved_nickname = saved_nick
+                    st.rerun()
+                else:
+                    st.error(error_msg)
+            else:
+                st.error("Zadaj prezývku.")
+    else:
+        st.success(f"✅ Skóre uložené ako **{st.session_state.saved_nickname}**!")
+
+    st.markdown("<br>", unsafe_allow_html=True)
+
+    # ── Leaderboard ────────────────────────────────────────────────────────────
+    st.markdown("<h3 style='text-align:center'>🏆 Top 10 Leaderboard</h3>", unsafe_allow_html=True)
+    leaders = get_leaderboard()
+    if leaders:
+        for i, entry in enumerate(leaders):
+            medal = ["🥇", "🥈", "🥉"][i] if i < 3 else f"{i+1}."
+            is_me = entry["nickname"] == st.session_state.get("saved_nickname", "")
+            bg = "#0d2818" if is_me else "#161b22"
+            border = "#3fb950" if is_me else "#30363d"
+            st.markdown(f"""
+            <div style='background:{bg};border:1px solid {border};border-radius:8px;
+                        padding:10px 16px;margin-bottom:6px;
+                        display:flex;justify-content:space-between;align-items:center'>
+                <span>{medal} <strong style='color:#fff'>{entry["nickname"]}</strong></span>
+                <span style='color:#3fb950;font-weight:600'>{entry["score"]}/10</span>
+                <span style='color:#8b949e'>{entry["accuracy"]}%</span>
+            </div>
+            """, unsafe_allow_html=True)
+    else:
+        st.markdown("<p style='text-align:center;color:#8b949e'>Zatiaľ žiadne skóre.</p>", unsafe_allow_html=True)
+
+    st.markdown("<br>", unsafe_allow_html=True)
+    if st.button("🔄 Hrať znova", use_container_width=True):
         init_state()
         st.rerun()
     st.stop()
@@ -331,25 +449,15 @@ if st.session_state.answered:
         next_round()
         st.rerun()
 
-# # ── Guess buttons ──────────────────────────────────────────────────────────────
-# else:
-#     st.markdown(f"<p style='text-align:center;color:#8b949e;margin:16px 0 8px'>Is <strong style='color:#fff'>{row_b['Player']}</strong>'s value HIGHER or LOWER than {fmt_value(row_a['Value'])}?</p>", unsafe_allow_html=True)
-#     col1, col2 = st.columns(2)
-#     with col1:
-#         if st.button("📈 HIGHER", key="higher"):
-#             handle_guess("higher")
-#             st.rerun()
-#     with col2:
-#         if st.button("📉 LOWER", key="lower"):
-#             handle_guess("lower")
-#             st.rerun()
-
 # ── Sidebar: progress ──────────────────────────────────────────────────────────
 with st.sidebar:
     st.markdown("### 📊 Your progress")
     st.progress(st.session_state.score / MAX_ROUNDS)
     st.metric("Correct", st.session_state.score)
     st.metric("Accuracy", f"{int(st.session_state.score / st.session_state.round * 100)}%" if st.session_state.round > 0 else "—")
+    st.markdown("---")
+    views = st.session_state.get("visit_count", 0)
+    st.metric("👁️ Total visits", f"{views:,}")
     st.markdown("---")
     if st.button("🔄 Restart game"):
         init_state()
